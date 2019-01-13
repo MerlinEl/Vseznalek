@@ -1,0 +1,1 @@
+https://github.com/jedrichards/fla-text-processor-jsfl/blob/master/lib/ProcessFLATemplate.jsflvar element = o.obj;var parent = o.parent;var mcWrapper = parent.obj;var pathName = mcWrapper.libraryItem.name;var id = this.getIDByLibPathName(pathName);

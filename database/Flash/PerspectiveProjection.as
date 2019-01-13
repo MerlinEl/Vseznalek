@@ -1,0 +1,1 @@
+		var pp:PerspectiveProjection=new PerspectiveProjection();				pp.projectionCenter = new Point(stage.stageWidth * .5, stage.stageHeight * .5);				transform.perspectiveProjection = pp;

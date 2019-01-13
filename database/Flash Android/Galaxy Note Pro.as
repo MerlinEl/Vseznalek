@@ -1,0 +1,1 @@
+Obecné -> Zabezpečení -> "Neznámé zdroje" "Ladění USB"Obecné ->  O zařízení -> Několikrát poklepat

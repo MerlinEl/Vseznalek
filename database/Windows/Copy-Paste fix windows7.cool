@@ -1,0 +1,1 @@
+run cmd as Administrator1) sfc/scannow2) after finish restart pcor cmd /c "echo off|clip"

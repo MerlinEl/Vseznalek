@@ -1,0 +1,1 @@
+delete $point* --delete all pointsdelete #($bone_lips_r_Vlastik, $bone_lips_l_Vlastik, $bone_lips_down_Vlastik, $bone_eye_r_Vlastik, $bone_eye_l_Vlastik, $body_Vlastik, $Box001)delete (getNodeByName("vlastik final subtools2"))

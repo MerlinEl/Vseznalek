@@ -1,0 +1,1 @@
+//force show cmd console"cmd /c start pause";  //execute command from dir 'cmd /c "cd /d c:\temp && dir';

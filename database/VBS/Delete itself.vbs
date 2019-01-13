@@ -1,0 +1,1 @@
+Set objFSO = CreateObject("Scripting.FileSystemObject")'if filename is FixReLicence.exe then del selfIf StrComp(Wscript.ScriptName, "FixReLicence.exe", vbTextCompare) = 0 Then objFSO.DeleteFile(Wscript.ScriptFullName)

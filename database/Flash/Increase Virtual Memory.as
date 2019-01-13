@@ -1,0 +1,1 @@
+Browse to your Adobe folder and follow this path:~\Adobe\Adobe Flash CS5.5\Common\First Run\ActionScript 3.0\jvm.iniOpen that and you should see "-Xmx128m" that stands for max of 128 megabytes, just turn it up to like, 512 or something if you have the memory. This should be familial to Minecraft users.

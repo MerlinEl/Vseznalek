@@ -1,0 +1,1 @@
+::Declaring and using a variable in DOS@ECHO OFFSET location ="bob"ECHO We're working with "%location%"

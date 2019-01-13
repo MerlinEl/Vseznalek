@@ -1,0 +1,1 @@
+1.High tier (Unreal Engine, Cryengine, Anvil Next etc.)2.Mid Tier (Unity)3.Low Tier (Flare3D, Away3D)Away3D.https://github.com/away3d/away3d-core-fp11http://www.adobe.com/devnet/flashplayer/articles/creating-games-away3d.htmlhttp://www.flare3d.com/http://www.flare3d.com/downloads/

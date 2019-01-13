@@ -1,0 +1,1 @@
+	Yes use isNaN function to test if it the String is a valid Number:if (isNaN(char)){ 			//fl.trace("not int")	} else {			//fl.trace("is int")	}

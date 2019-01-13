@@ -1,0 +1,1 @@
+ {        //local copy        XDocument doc = XDocument.Load("artifacts.xml");        var lol = doc.Descendants("build_number");        foreach (XElement e in lol)        {            Console.WriteLine(e.Value); //correct output        }    }

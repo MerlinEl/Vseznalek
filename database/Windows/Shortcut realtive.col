@@ -1,0 +1,1 @@
+target: %windir%\explorer.exe "Matematika 6\CD\Output\data\Walker.exe"start in: %CD%

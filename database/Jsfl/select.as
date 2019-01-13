@@ -1,0 +1,1 @@
+       doc.currentTimeline =theObject.timeline;        doc.getTimeline().currentLayer =theObject.layer;        doc.getTimeline().currentFrame =theObject.frame;			fl.trace("selected layer:"+tl.currentLayer) //number			fl.trace("selected frame:"+tl.currentFrame) //number alert(layers[layer].name);o.selected = true

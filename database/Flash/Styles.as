@@ -1,0 +1,1 @@
+var componentClass:Class = keys_count.data as Class;var styles:Object = componentClass["getStyleDefinition"].call(this);trace(styles.toString());

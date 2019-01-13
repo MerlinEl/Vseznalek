@@ -1,0 +1,1 @@
+Hold down Shift+Ctrl+Alt and hold while to launching Flash Professional. If this interferes with an OS dialog, hold  this keyboard combination immediately after launching Flash until you  see the prompt to reset preferences.

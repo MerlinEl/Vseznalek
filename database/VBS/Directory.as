@@ -1,0 +1,1 @@
+./ = Your current directory../ = One directory lower../../ = Two directories lower../../../ = Three directories lower

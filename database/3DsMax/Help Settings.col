@@ -1,0 +1,1 @@
+Disable Wireframe on Selected Object Hi. You can disable it in the Viewport Configuration Dialog. Just uncheck "Display Selected with Edged Faces". If you save your settings in the maxstart file, they'll be there next time you open Max.Hope it helps. 

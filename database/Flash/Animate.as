@@ -1,0 +1,1 @@
+var shade:DropShadowFilter = new DropShadowFilter();shade.color = 0x333333;shade.blurX = 0;shade.blurY = 0;shade.angle = 90;shade.distance = 120;shade.alpha = .5; stage.addEventListener(Event.ENTER_FRAME, animateShadow); function animateShadow(event:Event):void{   plane_mc.x += 5;   shade.blurX += 0.2;   shade.blurY += 0.1;   plane_mc.filters = [shade];}

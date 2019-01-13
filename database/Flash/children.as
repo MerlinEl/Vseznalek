@@ -1,0 +1,1 @@
+  if(mc.contains(check))  {    mc.addChild(check);  }  else  {    mc.removeChild(check);  }

@@ -1,0 +1,1 @@
+	fn RunContext1 s a = 	(		print "Context 1"		if a.Button == a.Button.left do --show menu		(			rcMenu mainMenu			(				separator file_menu_1				menuItem new_1 "Close Form..."				separator file_menu_2				on new_1 picked do (form.close())			)			PopupMenu mainMenu		)	)	dotnet.addeventhandler mcs.tlp "MouseDown" RunContext1

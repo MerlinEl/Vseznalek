@@ -1,0 +1,1 @@
+	var tformat:TextFormat = new TextFormat();	tformat.font = "Arial";	tformat.size = 17;	tformat.color = 0x0066FF;	txt_all.setStyle("textFormat", tformat);	txt_filtered.setStyle("textFormat", tformat);		txt_all.text = "";      txt_filtered.text = "";

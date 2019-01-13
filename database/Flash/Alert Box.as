@@ -1,0 +1,1 @@
+private var alertBox:Allert_Box;private var DEBUG:Boolean = false;if (DEBUG) alertBox = new Allert_Box(this, "init interface buttons...", "Console:");if (DEBUG) alertBox.append("numChildren:"+this.numChildren);

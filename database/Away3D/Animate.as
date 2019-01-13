@@ -1,0 +1,1 @@
+https://books.google.cz/books?id=Mv7jz0R5v3YC&pg=PA108&lpg=PA108&dq=away3d+shift+normalmap&source=bl&ots=uN4pEfAnyb&sig=lRi4TjLMswJInPzxoTBLDrT2WgA&hl=cs&sa=X&ved=0ahUKEwjywNvXg9nSAhVJ1BoKHcj2D80Q6AEIJDAB#v=onepage&q=away3d%20shift%20normalmap&f=false

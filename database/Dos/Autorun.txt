@@ -1,0 +1,1 @@
+[Autorun]Open=Setup.exeIcon=icon.icoAction=Nahrát Slabikář 2014Label=Nakladatelství Nová Škola BrnoShell\Option1=InstalovatShell\Option1\Command=Setup.exeShell\Option2=SpustitShell\Option2\Command=system\walker.exe

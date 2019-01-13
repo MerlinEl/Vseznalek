@@ -1,0 +1,1 @@
+		public var onProgress:Function = function(t:uint):void {						Main.COSOLE.addText("Downloading File:" + localFile.name + " progress:" + t)		}		public var onComplete:Function = function():void {						dispatchEvent(new DownloadEvent(DownloadEvent.DOWNLOAD_COMPLETE, localFile));		}

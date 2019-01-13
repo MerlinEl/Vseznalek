@@ -1,0 +1,1 @@
+sysInfo.usernamesysInfo.computername(dotNetClass "System.Environment").MachineName 

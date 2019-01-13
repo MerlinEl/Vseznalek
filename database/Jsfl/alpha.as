@@ -1,0 +1,1 @@
+// set the alpha to 0;for (var i = 0; i < fl.getDocumentDOM().selection.length; i++){	var curSelection = fl.getDocumentDOM().selection[i];		curSelection.colorMode = "alpha"	curSelection.colorAlphaPercent = 0;}

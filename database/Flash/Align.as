@@ -1,0 +1,1 @@
+//align all_cages to left with offset             var left_margin:Number = 63;            for each (var cage:MovieClip in all_cages)	cage.x -= cage.getBounds(this).left - left_margin;

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+2 	<dialog id="ui" title="Convert Multiple Library Items to MovieClip" buttons="accept, cancel">
+3 	  <grid>
+4 	    <columns>
+5 	      <column width="300px">
+6 	        <label value="set MovieClip Name." />
+7 	      </column>
+8 	    </columns>
+9 	   
+10 	    <rows>
+11 	    <row>
+12 	      <label value="libraryname:   " />
+13 	      <textbox id="libraryname" control="libraryname" width="200pix" />
+14 	    </row>
+15 	    </rows>
+16 	   
+17 	   
+18 	    <columns>
+19 	      <column width="300px">
+20 	        <label value="set Linkage Name. (Optional)" />
+21 	      </column>
+22 	    </columns>
+23 	   
+24 	    <rows>
+25 	    <row>
+26 	      <label value="classname:   " />
+27 	      <textbox id="classname" control="classname" width="200pix" />
+28 	    </row>
+29 	    </rows>
+30 	   
+31 	    <rows>
+32 	   
+33 	    <row>
+34 	        <label value="choice alignment:" />
+35 	        <radiogroup id="align">
+36 	          <radio label="top left" />
+37 	          <radio label="top center" />
+38 	          <radio label="top right" />
+39 	          <radio label="center left" />
+40 	          <radio label="center" />
+41 	          <radio label="center right" />
+42 	          <radio label="bottom left" />
+43 	          <radio label="bottom center" />
+44 	          <radio label="bottom right" />
+45 	        </radiogroup>
+46 	       
+47 	    </row>
+48 	   
+49 	    </rows>
+50 	  </grid>
+51 	</dialog>

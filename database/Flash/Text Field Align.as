@@ -1,0 +1,1 @@
+		var txtFormat:TextFormat = new TextFormat();		   txtFormat.align = "right";		   helper_01.num.setTextFormat(txtFormat);				   or				   var textStyle:StyleSheet = new StyleSheet();		   textStyle.setStyle("right", {		   textAlign: "right"		   });		   helper_01.num.styleSheet = textStyle;		 

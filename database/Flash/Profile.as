@@ -1,0 +1,1 @@
+	 var profile = new XML(  fl.getDocumentDOM().exportPublishProfileString() );	 fl.trace("profile:"+profile+"\n")    var classPaths = profile.PublishFlashProperties.AS3PackagePaths.split(';');	fl.trace("classPaths:"+classPaths+"\n")

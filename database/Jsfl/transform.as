@@ -1,0 +1,1 @@
+function setContentZero(page){	doc.enterEditMode();	doc.selectAll();	var sel = doc.selection;	var rect = doc.getSelectionRect();	for each (var itm in sel){			itm.x -= rect.left;		itm.y -= rect.top;	}	fl.trace("rect:"+rect)	fl.trace("rect left:"+rect.left+" top:"+rect.top)	doc.exitEditMode();};

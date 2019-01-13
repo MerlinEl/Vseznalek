@@ -1,0 +1,1 @@
+// This will show the selected shape's first edge's thickness:fl.trace(fl.getDocumentDOM().selection[0].edges[0].stroke.thickness );

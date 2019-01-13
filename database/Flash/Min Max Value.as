@@ -1,0 +1,1 @@
+var myArray:Array = [2,3,3,4,2,2,5,6,7,2];var maxValue:Number = Math.max.apply(null, myArray);var minValue:Number = Math.min.apply(null, myArray);

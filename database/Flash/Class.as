@@ -1,0 +1,1 @@
+//get movieclip classvar cage_class:Class = Class(getDefinitionByName(getQualifiedClassName(temp_cage)));//set movieclip classcage_class.initiateWith(cage);

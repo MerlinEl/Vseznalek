@@ -1,0 +1,1 @@
+import flash.net.navigateToURLnavigateToURL( new URLRequest("mailto:"+email+"? subject="+sub+" &body="+body) );navigateToURL(new URLRequest("http://www.google.com"), "_blank");

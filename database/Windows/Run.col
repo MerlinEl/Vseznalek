@@ -1,0 +1,1 @@
+History list:regedit --> HKEY_CURRENT_USER --> Software--> Microsoft-->Windows-->CurrentVersion --> Explorer-->RunMRUHKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRUmsinfo32 = Systemove informacemsconfig = Startup settingcmd Motherboard info:wmic baseboard get product,Manufacturer,version,serialnumber = MSI           B85-G43 (MS-7816)

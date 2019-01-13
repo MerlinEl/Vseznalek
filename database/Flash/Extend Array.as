@@ -1,0 +1,1 @@
+//file: utils\\EXT_Array.asArray.prototype.randomItem = function(): *{  return this[Math.floor(Math.random() * this.length)];};//add:include 'utils\\EXT_Array.as';//call:			var list: Array = ["Red", "Orange", "Yellow", "Purple"];			trace(list.randomItem());			trace(list.randomItem());			trace(list.randomItem());

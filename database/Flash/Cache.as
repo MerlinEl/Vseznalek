@@ -1,0 +1,1 @@
+Find and delete the cached internet files (Temp) related to Adobe Air Desktop on windows 7:var urlr : URLRequest = new URLRequest();urlr.cacheResponse = false;If it will not help - use another method. Add to each url something like "?nocache="+ Math.random();

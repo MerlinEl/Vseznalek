@@ -1,0 +1,1 @@
+function getObjectBounds(obj){	var bounds = {};	bounds.x = obj.left - obj.x;	bounds.y = obj.top - obj.y;	bounds.width = obj.width;	bounds.height = obj.height;	bounds.left = bounds.x;	bounds.right = bounds.width + bounds.left;	bounds.top = bounds.y;	bounds.bottom = bounds.height + bounds.top;	return bounds;};

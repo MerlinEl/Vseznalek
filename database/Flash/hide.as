@@ -1,0 +1,1 @@
+		private function hideAll():void{						for (var i=0; i<buildings.totalFrames; i++){				var all_cards = GLF.getMovielipsByNamePart(buildings, "card_");				trace("cnt:"+all_cards.length)				for each (var c in all_cards) {					trace("cname:"+c.name)					c.alpha = 0;				}				buildings.nextFrame();			}		};

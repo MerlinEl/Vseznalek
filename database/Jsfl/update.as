@@ -1,0 +1,1 @@
+function invalidateStage() {	var selectedArray = fl.getDocumentDOM().selection;	fl.getDocumentDOM().selectNone();	fl.getDocumentDOM().selection = selectedArray;}

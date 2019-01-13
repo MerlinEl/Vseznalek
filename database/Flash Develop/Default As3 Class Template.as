@@ -1,0 +1,1 @@
+<FDInstallDir>\Templates\ProjectFiles\AS3Project\Class.as.fdt.wizard

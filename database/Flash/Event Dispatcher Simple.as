@@ -1,0 +1,1 @@
+//SenddispatchEvent(new Event("TRIANGLE_COMPLETE"));//CatchACTOR.addEventListener("TRIANGLE_COMPLETE", initLesson);function initLesson(e:Event):void{		ACTOR.removeEventListener("TRIANGLE_COMPLETE", initLesson);      //do action}

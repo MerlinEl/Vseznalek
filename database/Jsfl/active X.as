@@ -1,0 +1,1 @@
+var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");

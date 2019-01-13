@@ -1,0 +1,1 @@
+JSFL:fl.outputPanel.clear(); //clear consolefl.runScript(fl.configURI + "Commands/functions.as") // Include functions.as  AS2: #include "Demo.as"AS3: include "Demo.as"

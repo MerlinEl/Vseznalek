@@ -1,0 +1,1 @@
+http://svn.stefanix.net/listing.php?repname=actionscript&path=%2Fflex%2Fframeworks%2Fprojects%2Fframework%2Fsrc%2Fmx%2Fcollections%2F&rev=0

@@ -1,0 +1,1 @@
+function reconstructMovieclip(page){	var lib_name = page.libraryItem.name;	fl.trace("itm name:"+lib_name)	page.selected = true;	var sel = doc.selection;	doc.exitEditMode();	doc.breakApart();	doc.library.deleteItem(lib_name);	doc.selection = sel;	doc.convertToSymbol("movie clip", lib_name, "top left");}

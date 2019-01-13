@@ -1,0 +1,1 @@
+if (cage is TileContainer) doSomething();if (Object(cage).constructor != TileContainer) returnBack();if (  !(cage is TileContainer)  )

@@ -1,0 +1,1 @@
+if (i % 2)	trace("odd, licha");else	trace("even, suda");

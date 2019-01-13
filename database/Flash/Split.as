@@ -1,0 +1,1 @@
+//use multiple characters, separated by |//at special chars ( ) * / use this \return str.split(/\+|-|\*|\/|:/); 

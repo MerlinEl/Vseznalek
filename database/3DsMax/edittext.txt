@@ -1,0 +1,1 @@
+ONCE AGAIN: If you specify the height of the edittext to be 18 pixels or more, the on entered event handler will not be called since the edittext will be in multi-line mode!

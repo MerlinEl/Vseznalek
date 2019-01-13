@@ -1,0 +1,1 @@
+if (e &amp;&amp; e.elementType == "instance")

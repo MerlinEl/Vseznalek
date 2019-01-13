@@ -1,0 +1,1 @@
+import flash.utils.setTimeout;//wait 1 second and executesetTimeout(function ():void { myGreeter.kocourkuUdelej("huraa"); }, 1000);

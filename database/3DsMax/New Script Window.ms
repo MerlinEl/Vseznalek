@@ -1,0 +1,1 @@
+str = "New eindow with text"newWin = newScript()format "%\n" str to:newWin 

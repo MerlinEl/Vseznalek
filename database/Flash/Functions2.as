@@ -1,0 +1,1 @@
+/* figure 08 *//** Filter function: returns true if n is a positive integer. */// AS3 requires filter functions to have all three argumentsfunction isNaturalNumber(n:Number, i:int, a:Array):Boolean {  return n >= 1 && n % 1 == 0;}var list:Array = [-2, -1, 0, 1, 2.5, 3];var naturalNumbers:Array = list.filter(isNaturalNumber);// naturalNumbers is now [1, 3]

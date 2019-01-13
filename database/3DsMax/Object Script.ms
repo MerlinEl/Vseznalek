@@ -1,0 +1,1 @@
+sph = $Sphere001tea = $Teapot001ctrl = float_script ()tea[3][1][3].track = ctrlctrl.addConstant "fixPos" (tea.pos)ctrl.addConstant "fixTrgPos" (sph.pos)ctrl.AddObject "trgObj" sphctrl.AddNode "srcObj" teactrl.script = "if isValidNode trgObj then (distance trgObj.pos fixPos) else (distance fixTrgPos fixPos)"

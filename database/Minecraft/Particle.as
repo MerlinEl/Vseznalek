@@ -1,0 +1,1 @@
+https://www.spigotmc.org/resources/hubparticles-20-off-sale-stationary-decoration-particles.3932//hpcreate kour1 CLOUD 0 0 0 1 20 1/hpedit kour1 CLOUD 0 0 0 0.05 1 1/hpcreate fountain1 SPELL_WITCH 0 0 0 0.5 8 1/hpcreate kour2 SPELL 0 0 0 0.1 8 1/hpedit bubble1 WATER_SPLASH 0 0 0 1 10 1

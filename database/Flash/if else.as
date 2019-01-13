@@ -1,0 +1,1 @@
+displayObject ? displayObject.parent ? displayObject.parent.removeChild(displayObject) : null : null;var sceneName = (timeline.name.indexOf('Scene') === -1)        ? timeline.name        : fileName;

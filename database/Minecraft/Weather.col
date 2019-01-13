@@ -1,0 +1,1 @@
+/summon LightningBolt/execute @e[type=Player] ~ ~ ~ summon LightningBolt"/summon LightningBolt ~ ~ ~" on a /setblock clock so it runs 20 times a secondwoggle rain/toggledownfall/weather clear/rain

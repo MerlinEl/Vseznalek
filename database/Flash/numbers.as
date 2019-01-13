@@ -1,0 +1,1 @@
+var number1:Object = 1; // intvar number2:Object = 1.1; // floatvar number3:Object = 0x000000; // uintif (isNaN(num)) continue; //if is not a number

@@ -1,0 +1,1 @@
+bm1=bitmap 100 100 color:red bm2=bitmap 100 100 color:green  pasteBitmap bm2 bm1 (box2 0 0 20 20) [0,20] display bm1 --bm3=bitmap 100 100 color:red bm4=bitmap 32 32 color:green  pasteBitmap bm4 bm3 [0,0] [0,0] display bm3

@@ -1,0 +1,1 @@
+// to identify a MovieClipfor(var i:int = 0; i < containerObj.numChildren; i++) {    if(containerObj.getChildAt(i) is MovieClip) {        // do something    }}//oruse child.hasOwnProperty("numChildren")var mc_1:MovieClip = this.createEmptyMovieClip("mc", this.getNextHighestDepth());

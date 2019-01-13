@@ -1,0 +1,1 @@
+http://www.mkyong.com/java/how-do-convert-byte-array-to-string-in-java/	    byte[] bytes = str.getBytes();	    System.out.println("Text : " + str);	    System.out.println("Text [Byte Format] : " + bytes);	    System.out.println("Text [Byte Format] : " + bytes.toString());	    String s = new String(bytes);	    System.out.println("Text Decrypted : " + s);

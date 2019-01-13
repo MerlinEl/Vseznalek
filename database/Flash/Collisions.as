@@ -1,0 +1,1 @@
+import flash.events.Event;this.addEventListener( Event.ENTER_FRAME, handleCollision)function handleCollision( e:Event ):void{	if(circle_mc.hitTestObject(rect_mc))	   {		   output_txt.text = "HIT"	   }	   else	   {		   output_txt.text = "MISS"	   }}

@@ -1,0 +1,1 @@
+https://code.google.com/p/as3corelib/source/browse/trunk/src/com/adobe/

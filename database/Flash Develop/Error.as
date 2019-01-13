@@ -1,0 +1,1 @@
+invalid application descriptor: Unknown namespace: http://ns.adobe.com/air/application/3.6https://forums.adobe.com/message/5122440download latest AIRSDK_Compiler and put it here:  e:\Aprog\FlashDevelop-4.5.2\Tools\ascsdk\
