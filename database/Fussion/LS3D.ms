@@ -1,0 +1,1 @@
+--clear Ls3d Multi Materia bindingsfor i=1 to $.material.count do (		local mat = $.material[i]	if classOf mat != LS3DMaterial do continue	mat.ls3d.SetGUID ""	mat.ls3d.ClearBindings())
