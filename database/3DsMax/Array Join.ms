@@ -1,0 +1,1 @@
+road_collisions = for o in objects where findstring o.name "coll_generator" != undefined collect ovis = selection as arraycols = selection as arraychil = selection as arrayall_roads = #()join all_roads visjoin all_roads colsjoin all_roads chilselect all_roads
