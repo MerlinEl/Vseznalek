@@ -1,0 +1,1 @@
+if queryBox "Do you want to exit?" beep:true then print "EXIT" else print "RETURN"
