@@ -1,0 +1,1 @@
+getFileModDate getLocalTimedt = dotNetClass "System.DateTime"dt = dotnetObject "System.DateTime" 1996 6 3 22 15 0dt.parse "4/14/97 10:24:57 AM" --System.Globalization.CultureInfo.InvariantCulturedt.Milliseconddt.now.toString()dt.UtcNow.toString()difference = dt.Subtract(dt.UtcNow)difference.toString()dt.now.Milliseconddt.serializershowProperties dt showMethods dt
