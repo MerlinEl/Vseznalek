@@ -1,0 +1,1 @@
+try(throw "AAAAA")catch(format "*** % ***\n" (getCurrentException()))
