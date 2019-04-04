@@ -1,0 +1,1 @@
+	local ch = checker()	local mat = standardMaterial diffuseMap:ch	local mm = multimaterial()	local mm[1] = mat	$.material = mm	showTextureMap mm[1] ch on

@@ -1,0 +1,1 @@
+resolution depends on mapping sizefn addChecker obj clr_1:(color 36 130 144) clr_2:(color 150 225 235) = (	local ch = checker()	ch.color1 = clr_1	ch.color1 = clr_2	ch.coords.U_Tiling = 100	ch.coords.V_Tiling = 100	local mat = standardMaterial diffuseMap:ch	$.material = mat	showTextureMap mat ch on)addChecker $[1024, 1024] 

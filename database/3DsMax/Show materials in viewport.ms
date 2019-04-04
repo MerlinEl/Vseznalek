@@ -1,0 +1,1 @@
+fn viewportmaps obj_arr state= (for s in obj_arr do try (showTextureMap o.material state) catch())
