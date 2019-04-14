@@ -1,0 +1,1 @@
+// flatten the document so we get everything and then copyapp.activeDocument.flatten();app.activeDocument.selection.selectAll();app.activeDocument.selection.copy();app.activeDocument.paste();

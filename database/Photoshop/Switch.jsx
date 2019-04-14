@@ -1,0 +1,1 @@
+    switch(position) {          case 'center':              strokePosCharID = 'CtrF';              break;          case 'outside':              strokePosCharID = 'OutF';              break;          case 'inside':              strokePosCharID = 'InsF';              break;          default: break;       }  

@@ -1,0 +1,1 @@
+// don’t save anything we didapp.activeDocument.close(SaveOptions.DONOTSAVECHANGES);

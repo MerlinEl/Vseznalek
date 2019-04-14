@@ -1,0 +1,1 @@
+//file: EffectStyles.jsxfunction alertIncluded(){  alert('included');}#include 'EffectStyles.jsx';// @include 'EffectStyles.jsx';try {     $.evalFile("e:/Work/_Programming/Photoshop/photoshop-scripts/Texture Tile/EffectStyles.jsx", 30000);} catch(e) {        alert("ERROR: "+e.message);} alertIncluded();
