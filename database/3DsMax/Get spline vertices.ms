@@ -1,0 +1,1 @@
+		for s = 1 to (numsplines sp) do (						for k = 1 to (numknots sp s) do (format "spline_%_knot_%_pos = %\n" s k (getKnotPoint sp s k))		)

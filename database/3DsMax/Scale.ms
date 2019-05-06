@@ -1,0 +1,1 @@
+toolMode.uniformScale()toolMode.nonUniformScale()toolMode.squashScale()
