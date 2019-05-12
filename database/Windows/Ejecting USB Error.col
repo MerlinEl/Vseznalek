@@ -1,0 +1,1 @@
+How To Find Which App Or Process Is Using A USB In Windows-Run Event Viewer -under Windows Logs select System-Action/Filter Current Log-type on All Event IDs number 225 to filter only eject disc problems-in general tab see reasons
