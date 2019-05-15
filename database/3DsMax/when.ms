@@ -1,11 +1,1 @@
-/*
-when #($Sphere01, $Sphere02, $Box01) deleted obj do
-(
-messageBox "Warning!"
-)
-
-when transform $box01 changes do
-(
-print "changes"
-)
-*/
+		when select $ changes id:#roGen_Joint_Callback meshObj do format "changed obj:%\n" meshObj.name			when thisNode deleted id:#roGen_Joint_Callback obj  do ( 							format "obj deleted:%\n" obj				deleteAllChangeHandlers id:#roGen_Joint_Callback		)local track_nodes = #(thisNode, jo_start, jo_end)		if handler != undefined do deleteChangeHandler handler		handler = when track_nodes deleted obj do (					format "Collection was destroyed by deleting a component:%\n" obj			--format "Deleting nodes:%\n" node_list			delete (for n in this.node_list where isValidNode n collect n) --delete rest nodes from collection			--this.node_list = #()			/*local owner = custAttributes.getOwner this			format "Deleting owner:%\n" owner			local thisNode = refs.dependentNodes owner firstonly:on				format "Deleting thisNode:%\n" thisNode			if isValidNode thisNode do delete thisNode*/			handler = undefined			gc()		)when $Teapot001 deleted id:#foo obj do(	format "When Construct:%\n" obj)deleteAllChangeHandlers id:#foowhen #($Sphere01, $Sphere02, $Box01) deleted obj do (messageBox "Warning!")when transform $box01 changes do (print "changes")
