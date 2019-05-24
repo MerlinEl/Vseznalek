@@ -1,0 +1,1 @@
+if getCommandPanelTaskMode() != #modify then max modify mode
