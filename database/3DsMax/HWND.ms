@@ -1,0 +1,1 @@
+max_hwnd = windows.getChildrenHWND #max win_hwnd = windows.getChildrenHWND (windows.getDesktopHWND())mats = for i in max_hwnd where i[5]=="Materials:" do exit with imats = for i in win_hwnd where i[5]=="Materials:" do exit with imats = for i in win_hwnd where i[5]=="Modify:" do exit with i
