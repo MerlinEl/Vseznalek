@@ -1,0 +1,1 @@
+	fn registerCalbacks = (				handler = nodeEventCallback selectionChanged:getObjectInfo	)	fn unregisterCalbacks = (			handler = undefined		gc light:true	)	fn init = (		registerCalbacks()	)	fn shut = (				unregisterCalbacks()	)	on roadAnatomyToolDialog open do (init())	on roadAnatomyToolDialog close do (shut())
