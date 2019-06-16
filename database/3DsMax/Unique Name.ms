@@ -1,0 +1,1 @@
+for i = 1 to nnl.count do(    --rename the objects to a unique name    nnl[i].name = uniqueName "changethis" numDigits:3)
