@@ -1,19 +1,1 @@
-macros.load "f:/gametools/macros"
-
-macros.edit "objects" "box"
-
-macros.run 132
-
-macros.run "modifiers" "bend"
-
-
---or
-
-(Macros.run 22615)
-
-#Struct:macros(
-  list:<fn>,
-  edit:<fn>,
-  run:<fn>,
-  load:<fn>,
-  new:<fn>)
+	fn printAllMacros  = (		for i=1 to actionMan.numActionTables do (			local ata = actionMan.getActionTable i			format "Action Table name:% context:%\n" ata.name ata.contextName			for y=1 to ata.numActionItems do (								local itm = ata.getActionItem y				local btn, cat				itm.getButtonText &btn				itm.getCategory &cat				format "\tcat:% btn:%\n" cat btn			)		) 	)printAllMacros()macros.list()macros.load "f:/gametools/macros"macros.edit "objects" "box"macros.run 132macros.run "modifiers" "bend"--or(Macros.run 22615)#Struct:macros(  list:<fn>,  edit:<fn>,  run:<fn>,  load:<fn>,  new:<fn>)actionMannumActionTablesgetActionItem <index>indexPropNames: #(#id, #name, #contextID, #contextName, #numActionItems)
