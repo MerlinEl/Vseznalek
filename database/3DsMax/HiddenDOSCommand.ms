@@ -1,0 +1,1 @@
+HiddenDOSCommand "notepad %temp%\\cmdout.tmp" prompt:"Waiting..." startpath:"C:\\"
