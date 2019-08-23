@@ -1,0 +1,1 @@
+theParent = windows.getChildHWND 0 "Edit UVWs"createdialog UVMatchRO pos:(mouse.screenpos - [32,32]) parent:theParent[1]

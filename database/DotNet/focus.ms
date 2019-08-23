@@ -1,36 +1,1 @@
-			fn onGotFocus = (enableAccelerators = false)
-	fn onLostFocus = (enableAccelerators = true)
-		
-		dotNet.addEventHandler textBox1 "GotFocus" onGotFocus
-		dotNet.addEventHandler textBox1 "LostFocus" onLostFocus
-		
-		
-		
-		
-		enableAccelerators = true --set focus to viewport
-		
-		
-rollout tbtest “MXS Dotnet texbox” width:227 height:23
- (
- dotnetcontrol textboxctrl “TextBox” pos:[1,1] width:225 height:16
-
-
-on textboxctrl gotfocus sender arg do enableacellerators = false
- on textboxctrl lostfocus sender arg do enableacellerators = true
- )
- createdialog tbtest
-		
-		
-		
-Public Class MaxTextBox
- Inherits System.Windows.Forms.TextBox
-
-
-Protected Overrides Sub OnGotFocus(ByVal e As System.EventArgs)
- ManagedServices.AppSDK.DisableAccelerators()
- End Sub
-
-Protected Overrides Sub OnLostFocus(ByVal e As System.EventArgs)
- ManagedServices.AppSDK.EnableAccelerators()
- End Sub
- End Cla
+/*rollout tbtest "Â“MXS Dotnet texboxÂ”" width:227 height:23(	dotNetControl 'text_box' "System.Windows.Forms.Textbox" pos:[1,1] width:225 height:16	fn onGotFocus = (enableAccelerators = false)	fn onLostFocus = (enableAccelerators = true)	on tbtest open do (				dotNet.addEventHandler text_box "GotFocus" onGotFocus		dotNet.addEventHandler text_box "LostFocus" onLostFocus		enableAccelerators = true --set focus to viewport	)	on text_box gotfocus sender arg do enableacellerators = false	on text_box lostfocus sender arg do enableacellerators = true)createdialog tbtest*/hForm = dotNetObject "MaxCustomControls.MaxForm"hForm.Size = dotNetObject "System.Drawing.Size" 227 60hForm.FormBorderStyle = (dotnetclass "System.Windows.Forms.FormBorderStyle").FixedToolWindowhForm.Text = "Printing with dotNet"hForm.ShowInTaskbar = FalsetxtTextBox = dotNetObject "System.Windows.Forms.TextBox"txtTextBox.MultiLine = falsetxtTextBox.WordWrap = falsetxtTextBox.Size = dotNetObject "System.Drawing.Size" 225 16txtTextBox.Location = dotNetObject "System.Drawing.Point" 1 1txtTextBox.ScrollBars = txtTextBox.ScrollBars.Nonefn onGotFocus = (enableAccelerators = false)fn onLostFocus = (enableAccelerators = true)dotNet.addEventHandler txtTextBox "GotFocus" onGotFocusdotNet.addEventHandler txtTextBox "LostFocus" onLostFocushForm.Controls.Add(txtTextBox)enableAccelerators = true --set focus to viewporthForm.ShowModeless()
