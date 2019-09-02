@@ -1,0 +1,1 @@
+	fn stretchBitmapTo bm w h = (				local bb=bitmap w h color:black 		local tx = bitmaptexture bitmap:bm		rendermap tx into:bb size:[bb.width,bb.height] filter:on display:off			bb	)stretchBitmapTo bm 264 200
