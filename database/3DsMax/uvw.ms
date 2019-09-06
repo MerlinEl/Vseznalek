@@ -1,155 +1,1 @@
-<void>GetSelectionFromFace()
-
-gco.fit() --zoom all
-gco.fitSelected() --zoom selection
- 
-<void><Unwrap_UVW>.getArea <bitArray>faceSelection <&float>x <&float>y <&float>width <&float>height <&float>areaUVW <&float>areaGeom 
-
-x is Out parameter 
-y is Out parameter 
-width is Out parameter 
-height is Out parameter 
-areaUVW is Out parameter 
-areaGeom is Out parameter 
-
-
-unwrapMod.getAreaByNode first_element &areaUVW &areaGeom  $
-
-
-gco.NumberVertices() 
-gco.numberPolygons()
-gco.selectFaces #{1}
-
-
-point3><Unwrap_UVW>.getSelCenter()
-
-$.unwrap_uvw.unwrap.weldSelected()
-
-$.unwrap_uvw.unwrap.getWeldThresold()
-
-$.unwrap_uvw.unwrap.setWeldThreshold 0.0001
-
-showinterface $.unwrap_uvw.unwrap
-/*
-  Interface: unwrap
-   Properties:
-   Methods:
-    <void>planarMap()
-    <void>save()
-    <void>load()
-    <void>reset()
-    <void>edit()
-    <void>setMapChannel <integer>mapChannel
-    <integer>getMapChannel()
-    <void>setProjectionType <integer>mapChannel
-    <integer>getProjectionType()
-    <void>setVC <boolean>vertexColor
-    <boolean>getVC()
-    <void>move()
-    <void>moveh()
-    <void>movev()
-    <void>rotate()
-    <void>scale()
-    <void>scaleh()
-    <void>scalev()
-    <void>mirrorH()
-    <void>mirrorV()
-    <void>expandSelection()
-    <void>contractSelection()
-    <void>setFalloffType <integer>falloffType
-    <integer>getFalloffType()
-    <void>setFalloffSpace <integer>falloffSpace
-    <integer>getFalloffSpace()
-    <void>setFalloffDist <float>falloffDist
-    <float>getFalloffDist()
-    <void>breakSelected()
-    <void>weld()
-    <void>weldSelected()
-    <void>updateMap()
-    <void>DisplayMap <boolean>displayMap
-    <boolean>IsMapDisplayed()
-    <void>setUVSpace <integer>UVSpace
-    <integer>getUVSpace()
-    <void>options()
-    <void>lock()
-    <void>hide()
-    <void>unhide()
-    <void>freeze()
-    <void>unfreeze()
-    <void>filterselected()
-    <void>pan()
-    <void>zoom()
-    <void>zoomRegion()
-    <void>fit()
-    <void>fitselected()
-    <void>snap()
-    <integer>getCurrentMap()
-    <void>setCurrentMap <integer>map
-    <integer>numberMaps()
-    <point3>getLineColor()
-    <void>setLineColor <point3>color
-    <point3>getSelectionColor()
-    <void>setSelectionColor <point3>color
-    <integer>getRenderWidth()
-    <void>setRenderWidth <integer>width
-    <integer>getRenderHeight()
-    <void>setRenderHeight <integer>height
-    <boolean>getUseBitmapRes()
-    <void>setUseBitmapRes <boolean>useRes
-    <float>getWeldThreshold()
-    <void>setWeldThreshold <float>height
-    <boolean>getConstantUpdate()
-    <void>setConstantUpdate <boolean>update
-    <boolean>getShowSelectedVertices()
-    <void>setShowSelectedVertices <boolean>show
-    <boolean>getMidPixelSnap()
-    <void>setMidPixelSnap <boolean>snap
-    <integer>getMatID()
-    <void>setMatID <integer>matid
-    <integer>numberMatIDs()
-    <bitArray>getSelectedVertices()
-    <void>selectVertices <bitArray>selection
-    <boolean>isVertexSelected <integer>index
-    <void>MoveSelectedVertices <point3>offset
-    <void>RotateSelectedVerticesCenter <float>angle
-    <void>RotateSelectedVertices <float>angle <point3>axis
-    <void>ScaleSelectedVerticesCenter <float>scale <integer>dir
-    <void>ScaleSelectedVertices <float>scale <integer>dir <point3>axis
-    <point3>GetVertexPosition <time>time <integer>index
-    <integer>numberVertices()
-    <void>moveX <float>p
-    <void>moveY <float>p
-    <void>moveZ <float>p
-    <bitArray>getSelectedPolygons()
-    <void>selectPolygons <bitArray>selection
-    <boolean>isPolygonSelected <integer>index
-    <integer>numberPolygons()
-    <void>detachEdgeVertices()
-    <void>flipHorizontal()
-    <void>flipVertical()
-    <boolean>getLockAspect()
-    <void>setLockAspect <boolean>aspect
-    <float>getMapScale()
-    <void>setMapScale <float>scale
-    <void>getSelectionFromFace()
-    <void>forceUpdate <boolean>update
-    <void>zoomToGizmo <boolean>all
-    <void>setVertexPosition <time>time <integer>index <point3>pos
-    <void>markAsDead <integer>index
-    <integer>numberPointsInFace <integer>index
-    <integer>getVertexIndexFromFace <integer>faceIndex <integer>ithVertex
-    <integer>getHandleIndexFromFace <integer>faceIndex <integer>ithVertex
-    <integer>getInteriorIndexFromFace <integer>faceIndex <integer>ithVertex
-    <integer>getVertexGeomIndexFromFace <integer>faceIndex <integer>ithVertex
-    <integer>getHandleGeomIndexFromFace <integer>faceIndex <integer>ithVertex
-    <integer>getInteriorGeomIndexFromFace <integer>faceIndex <integer>ithVertex
-    <void>setFaceVertex <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel
-    <void>setFaceHandle <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel
-    <void>setFaceInterior <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel
-    <void>setFaceVertexIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex
-    <void>setFaceHandleIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex
-    <void>setFaceInteriorIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex
-    <void>updateView()
-    <void>getFaceSelectionFromStack()
-   Actions:
-  */
+fn alignUVGizmo theObj theFace = (	-- First get the face normal vector.	-- It is shown in BLUE on the image	faceNormal = in coordsys theObj (polyOp.getFaceNormal theObj theFace)	-- This is the desired up vector in world space	-- It is shown in YELLOW on the image	worldUpVector = [0,0,1]	-- Now get the cross-product of the face normal and the up vector.	-- This will give you a vector that is perpendicular to the plane defined	-- by the normal and the up vector. Normalize it to get a normal vector	-- pointing to the right.	-- It is shown in RED on the image	rightVector = normalize (cross worldUpVector faceNormal)	-- Now using the face normal and the new vector,	-- get a vector that is perpendicular to the plane defined by the two.	-- This is the "local up vector", the vector that is the projection of	-- the world up vector on the face you selected. This one is perpendicular	-- to both the face normal and the right vector, and you have 3 normals now	-- that define the X, Y and Z of your new orthogonal coordinate system	-- for the UVW gizmo!	-- Note that this new vector can be seen as the SHADOW of the World Up vector	-- on the face of the object in the above image.	-- It is now displayed in green in the image below:	upVector = normalize ( cross rightVector faceNormal )	-- Using the 3 vectors, define a matrix3 value which represents the	-- coordinate system of the gizmo. The face normal is the Z axis,	-- the right vector is the X axis, and the local up vector is the Y axis:	theMatrix = matrix3 rightVector upVector faceNormal [0,0,0]	theMap = Uvwmap()	modPanel.addModToSelection theMap ui: on	theMap.gizmo.transform = theMatrix)alignUVGizmo $ 7<void>GetSelectionFromFace()gco.fit() --zoom allgco.fitSelected() --zoom selection<void><Unwrap_UVW>.getArea <bitArray>faceSelection <&float>x <&float>y <&float>width <&float>height <&float>areaUVW <&float>areaGeom x is Out parameter y is Out parameter width is Out parameter height is Out parameter areaUVW is Out parameter areaGeom is Out parameter unwrapMod.getAreaByNode first_element &areaUVW &areaGeom  $gco.NumberVertices() gco.numberPolygons()gco.selectFaces #{1}point3><Unwrap_UVW>.getSelCenter()$.unwrap_uvw.unwrap.weldSelected()$.unwrap_uvw.unwrap.getWeldThresold()$.unwrap_uvw.unwrap.setWeldThreshold 0.0001showinterface $.unwrap_uvw.unwrap/*  Interface: unwrap   Properties:   Methods:    <void>planarMap()    <void>save()    <void>load()    <void>reset()    <void>edit()    <void>setMapChannel <integer>mapChannel    <integer>getMapChannel()    <void>setProjectionType <integer>mapChannel    <integer>getProjectionType()    <void>setVC <boolean>vertexColor    <boolean>getVC()    <void>move()    <void>moveh()    <void>movev()    <void>rotate()    <void>scale()    <void>scaleh()    <void>scalev()    <void>mirrorH()    <void>mirrorV()    <void>expandSelection()    <void>contractSelection()    <void>setFalloffType <integer>falloffType    <integer>getFalloffType()    <void>setFalloffSpace <integer>falloffSpace    <integer>getFalloffSpace()    <void>setFalloffDist <float>falloffDist    <float>getFalloffDist()    <void>breakSelected()    <void>weld()    <void>weldSelected()    <void>updateMap()    <void>DisplayMap <boolean>displayMap    <boolean>IsMapDisplayed()    <void>setUVSpace <integer>UVSpace    <integer>getUVSpace()    <void>options()    <void>lock()    <void>hide()    <void>unhide()    <void>freeze()    <void>unfreeze()    <void>filterselected()    <void>pan()    <void>zoom()    <void>zoomRegion()    <void>fit()    <void>fitselected()    <void>snap()    <integer>getCurrentMap()    <void>setCurrentMap <integer>map    <integer>numberMaps()    <point3>getLineColor()    <void>setLineColor <point3>color    <point3>getSelectionColor()    <void>setSelectionColor <point3>color    <integer>getRenderWidth()    <void>setRenderWidth <integer>width    <integer>getRenderHeight()    <void>setRenderHeight <integer>height    <boolean>getUseBitmapRes()    <void>setUseBitmapRes <boolean>useRes    <float>getWeldThreshold()    <void>setWeldThreshold <float>height    <boolean>getConstantUpdate()    <void>setConstantUpdate <boolean>update    <boolean>getShowSelectedVertices()    <void>setShowSelectedVertices <boolean>show    <boolean>getMidPixelSnap()    <void>setMidPixelSnap <boolean>snap    <integer>getMatID()    <void>setMatID <integer>matid    <integer>numberMatIDs()    <bitArray>getSelectedVertices()    <void>selectVertices <bitArray>selection    <boolean>isVertexSelected <integer>index    <void>MoveSelectedVertices <point3>offset    <void>RotateSelectedVerticesCenter <float>angle    <void>RotateSelectedVertices <float>angle <point3>axis    <void>ScaleSelectedVerticesCenter <float>scale <integer>dir    <void>ScaleSelectedVertices <float>scale <integer>dir <point3>axis    <point3>GetVertexPosition <time>time <integer>index    <integer>numberVertices()    <void>moveX <float>p    <void>moveY <float>p    <void>moveZ <float>p    <bitArray>getSelectedPolygons()    <void>selectPolygons <bitArray>selection    <boolean>isPolygonSelected <integer>index    <integer>numberPolygons()    <void>detachEdgeVertices()    <void>flipHorizontal()    <void>flipVertical()    <boolean>getLockAspect()    <void>setLockAspect <boolean>aspect    <float>getMapScale()    <void>setMapScale <float>scale    <void>getSelectionFromFace()    <void>forceUpdate <boolean>update    <void>zoomToGizmo <boolean>all    <void>setVertexPosition <time>time <integer>index <point3>pos    <void>markAsDead <integer>index    <integer>numberPointsInFace <integer>index    <integer>getVertexIndexFromFace <integer>faceIndex <integer>ithVertex    <integer>getHandleIndexFromFace <integer>faceIndex <integer>ithVertex    <integer>getInteriorIndexFromFace <integer>faceIndex <integer>ithVertex    <integer>getVertexGeomIndexFromFace <integer>faceIndex <integer>ithVertex    <integer>getHandleGeomIndexFromFace <integer>faceIndex <integer>ithVertex    <integer>getInteriorGeomIndexFromFace <integer>faceIndex <integer>ithVertex    <void>setFaceVertex <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel    <void>setFaceHandle <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel    <void>setFaceInterior <point3>pos <integer>faceIndex <integer>ithVertex <boolean>sel    <void>setFaceVertexIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex    <void>setFaceHandleIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex    <void>setFaceInteriorIndex <integer>faceIndex <integer>ithVertex <integer>vertexIndex    <void>updateView()    <void>getFaceSelectionFromStack()   Actions:  */
