@@ -1,0 +1,1 @@
+fn getObjectMaterials obj = (	local mat = obj.material	mats_id = #{}	for f = 1 to obj.faces.count do (		mats_id += #{polyop.getFaceMatID obj f}	)	for id in mats_id do (		for i = 1 to mat.materialList.count do (			if mat.materialIDList[i] != id do continue			format "ID:% MAT:%\n" id mat.materialList[i].name		)	))getObjectMaterials $
