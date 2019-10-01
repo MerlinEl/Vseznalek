@@ -1,58 +1,1 @@
-(
-fn OnExit =
-(
-hApp = dotNetClass "System.Windows.Forms.Application"
-hApp.Exit() -- Close and exit form application
-)
-
--- Access application to enable visual styles
-hApp = dotNetClass "System.Windows.Forms.Application"
-hApp.EnableVisualStyles() -- Enable Office 2005/.Net 2.0 style
-
--- Create menu and menu items
-mMenu = dotNetObject "System.Windows.Forms.MenuStrip"
-mFileMenu = dotNetObject "System.Windows.Forms.ToolStripMenuItem"
-mExitMenu = dotNetObject "System.Windows.Forms.ToolStripMenuItem"
-mFileMenu.Text = "File";
-mExitMenu.Text = "Exit";
-
--- Add file menu item to menu
-mMenu.Items.AddRange(#(mFileMenu))
-
--- Add exit menu item to file menu
-mFileMenu.DropDownItems.AddRange(#(mExitMenu))
-
--- Create a DotNet Form
-hForm = dotNetObject "System.Windows.Forms.Form"
-hForm.Size = dotNetObject "System.Drawing.Size" 300 300
-hForm.Text = ".Net 2.0 Form with Menu"
-hForm.Controls.Add(mMenu) -- Add menu control to form controls
-hForm.MainMenuStrip = mMenu -- Set menu control as main menu of the form
-hForm.topmost = true -- Always displayed over the others windows
-
--- Add click event to exit menu item
-dotNet.addEventHandler mExitMenu "click" OnExit
-
--- Show form
-hForm.show()
-)
-
------------------
- 	menuItem = contextMenu.Items.Add(arrFavtmp[i])
- 	menuItem.image = imageClass.fromFile <bitmap filename>
-
-		fn showMenu s a =
-		(
-			if a.Button == a.Button.right do
-			(
-				local itms = #("Close...", "Edit...", "Lock...")
-				local contextMenu = dotNetObject "ContextMenuStrip"
-				for i = 1 to itms.count do
-				(
-					local itm = contextMenu.Items.Add(itms[i])
-					dotnet.addeventhandler itm "Click" closeForm
-				)
-				contextmenu.Show (s.PointToScreen (netDrPoint a.location))
-				--mc2System.show contextMenu.Items
-			)
-		),
+local rcmenu_xml = dotNetObject "System.Windows.Forms.ContextMenuStrip"dotNetControl 'lv_xml_data' "listView" pos:[240,28] width:316 height:680 align:#lefton lv_xml_data mouseclick s a do (showXmlMenu s a)	fn rcMenuXmlHandler s a = (            format "lbxMatLib rcMenuHandler > val:%  text:%\n" s.tag.value  s.text        case s.text of (                    "Edit": (                                /*local clicked_row = s.tag                if clicked_row == undefined do return false                                local app_pos = getDialogPos ::gLS3D_MaterialLibraryDesignerUI                local app_size = getDialogSize ::gLS3D_MaterialLibraryDesignerUI                local dia_size = getDialogSize rXmlMatSettings                local app_center_pos = [                    app_pos.x + (app_size.x / 2)  - (dia_size.x / 2),                     app_pos.y + (app_size.y / 2)  - (dia_size.y / 2) \                ]                                CreateDialog rXmlMatSettings pos:app_center_pos                rXmlMatSettings.loadDataFromXML clicked_row.value*/            )            "Delete": (                            /*local clicked_row = s.tag                if clicked_row == undefined do return false                            if QueryBox ("You Are Sure to Delete Material ( " + clicked_row.value + " )") title:"Delete" do                 (                    format "TODO... delete item from libraty and xml ( if found )\n"                )*/            )            "Copy Name(s)" : (            				local selected_cels = lv_xml_data.SelectedCells				format "selected_cels:%\n" selected_cels                /*local data_grid = s.tag                local selected_cels = data_grid.SelectedCells                local selected_items_names = ""                for i = 0 to selected_cels.count - 1  do (                                    local row_index = (selected_cels.item[i].RowIndex + 1) as String                    local mat_xml = selected_cels.item[i].Value as String                    selected_items_names += "ID:" + row_index + " Mat:" + mat_xml + "\n"                    --format "SelectedCell: %\n" (selected_cels.item[i].Value)                )                setclipboardText selected_items_names*/            )			"Copy To": (															)        )    )		fn showXmlMenu s a = (			if a.button == a.button.right do(					local cursor = dotnetclass "System.Windows.Forms.Cursor"			local mPt = cursor.Position			rcmenu_xml.Show mPt.x (mPt.y+5)		)	)		fn initXmlMenu = (     		local itemsArr = #("Edit", "Delete", "Copy To", "Copy Name(s)") --, "Convert or Expand to others mat types"		for i = 1 to itemsArr.count do (					local itm = dotNetObject "System.Windows.Forms.ToolStripMenuItem" itemsArr[i]			rcmenu_xml.Items.Add(itm)			dotnet.addEventHandler rcmenu_xml.Items.item[i-1] "Click" rcMenuXmlHandler			--dotNet.setLifetimeControl itm #dotnet; -- stop gc() deleting the event handlers			)	)(fn OnExit =(hApp = dotNetClass "System.Windows.Forms.Application"hApp.Exit() -- Close and exit form application)-- Access application to enable visual styleshApp = dotNetClass "System.Windows.Forms.Application"hApp.EnableVisualStyles() -- Enable Office 2005/.Net 2.0 style-- Create menu and menu itemsmMenu = dotNetObject "System.Windows.Forms.MenuStrip"mFileMenu = dotNetObject "System.Windows.Forms.ToolStripMenuItem"mExitMenu = dotNetObject "System.Windows.Forms.ToolStripMenuItem"mFileMenu.Text = "File";mExitMenu.Text = "Exit";-- Add file menu item to menumMenu.Items.AddRange(#(mFileMenu))-- Add exit menu item to file menumFileMenu.DropDownItems.AddRange(#(mExitMenu))-- Create a DotNet FormhForm = dotNetObject "System.Windows.Forms.Form"hForm.Size = dotNetObject "System.Drawing.Size" 300 300hForm.Text = ".Net 2.0 Form with Menu"hForm.Controls.Add(mMenu) -- Add menu control to form controlshForm.MainMenuStrip = mMenu -- Set menu control as main menu of the formhForm.topmost = true -- Always displayed over the others windows-- Add click event to exit menu itemdotNet.addEventHandler mExitMenu "click" OnExit-- Show formhForm.show())----------------- 	menuItem = contextMenu.Items.Add(arrFavtmp[i]) 	menuItem.image = imageClass.fromFile <bitmap filename>		fn showMenu s a =		(			if a.Button == a.Button.right do			(				local itms = #("Close...", "Edit...", "Lock...")				local contextMenu = dotNetObject "ContextMenuStrip"				for i = 1 to itms.count do				(					local itm = contextMenu.Items.Add(itms[i])					dotnet.addeventhandler itm "Click" closeForm				)				contextmenu.Show (s.PointToScreen (netDrPoint a.location))				--mc2System.show contextMenu.Items			)		),
