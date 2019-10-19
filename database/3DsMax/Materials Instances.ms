@@ -1,0 +1,1 @@
+( -- ProjectA.matという名前のマテリアルライブラリをロードして、同じ名前のシーンマテリアルを置き換える loadMaterialLibrary "ProjectA.mat" for mat in currentMaterialLibrary do   (   insMats = getClassInstances (classOf mat) target:sceneMaterials   for ref in insMats where ref.name == mat.name do (   replaceInstances ref mat  ) ))
