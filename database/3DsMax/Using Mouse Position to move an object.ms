@@ -1,0 +1,1 @@
+tool objectPlacer numPoints:1(	on freeMove do $.pos = [gridPoint.x, gridPoint.y, $.pos.z])if selection.count == 1 do startTool objectPlacer

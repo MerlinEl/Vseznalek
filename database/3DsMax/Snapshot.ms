@@ -1,0 +1,1 @@
+hide (trgt_mesh_obj = snapshot PolyObj)local RayInt  = intersectRay trgt_mesh_obj RayPntdelete trgt_mesh_obj

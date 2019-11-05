@@ -1,0 +1,1 @@
+function PaintStroke  = (local Hit =  [0, 0, 0]localNorma1 =  [0, 0, 0]worldHit =  [0, 0, 0]worldNormaI =  [0, 0, 0]str = 0.0fradius = 0.0fthePainterInterface.getHitPointData  &IocaIHit &localNorma1 &worIdHit &worIdNormaI &radius &Str --create an instance Of the pyramid and move it obj = instance scatteredObject obj. pos =  worldHit obj.dir = worldNorma1)
