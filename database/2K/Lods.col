@@ -1,0 +1,1 @@
+ https://hub.gametools.dev/display/H13/LOD+Settings<lod distance="(lodindexnumber * 5 * (largestObjectDimension / 2)) + (largestObjectDimension / 2))"/>size = $.max - $.minlargestObjectDimension = (sort #(size.x, size.y, size.z))[1]lodindexnumber = 1dist = (lodindexnumber * 5 * (largestObjectDimension / 2)) + (largestObjectDimension / 2)
