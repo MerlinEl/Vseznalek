@@ -1,2 +1,1 @@
-getUserProp $ "Names"
-setUserProp $ "Names" #("c","esf","dfd")
+-- strore  original pos as propertysetUserProp o "orig_pos" o.pos--move to zero o.pos = [0,0,0]--restore original poslocal orig_pos = getUserProp o "orig_pos"if orig_pos != undefined do o.pos = execute  orig_pos--store an array of stringsgetUserProp $ "Names"setUserProp $ "Names" #("c","esf","dfd")
