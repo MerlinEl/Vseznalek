@@ -1,0 +1,1 @@
+"AutoBackupBailout" feature in 3ds Max, which allows users to cancel an Autosave in progress.Autosave.BailoutEnabled = true
