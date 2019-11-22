@@ -1,0 +1,1 @@
+isStruct mcArrayisStruct mcDialogglobalvars.isglobal #EventCallbackWrapperd = globalvars.get #EventCallbackWrapper
