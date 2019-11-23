@@ -1,0 +1,1 @@
+		--define number of hours, minutes, and seconds.		local time_interval = dotnetObject "System.TimeSpan" 0 0 10 --10sec-- 		interval.Seconds-- 		interval.TotalSeconds-- 		interval.Minutes-- 		interval.TotalMinutes-- 		time_interval.ToString()format "Current time:%\n" (mcDotnet.SysTime.Now.toString())
