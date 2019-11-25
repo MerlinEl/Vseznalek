@@ -1,0 +1,1 @@
+function getChannelByName(doc, ch_name) {		for (var i=0; i<doc.channels.length; i++) {			var ch = doc.channels[i]		if (ch.name == ch_name) return ch 	}	null}
