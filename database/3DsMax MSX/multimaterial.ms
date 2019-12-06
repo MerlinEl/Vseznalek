@@ -1,1 +1,1 @@
-	local ch = checker()	local mat = standardMaterial diffuseMap:ch	local mm = multimaterial()	local mm[1] = mat	$.material = mm	showTextureMap mm[1] ch on
+mm = MultiMaterial numsubs:40mm.countmm[20]= standardMaterial()	local ch = checker()	local mat = standardMaterial diffuseMap:ch	local mm = multimaterial()	local mm[1] = mat	$.material = mm	showTextureMap mm[1] ch on
