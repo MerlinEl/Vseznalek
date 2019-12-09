@@ -1,6 +1,1 @@
-if selection.count !=0 do gw.hMarker ( gw.hTransPoint $.pos) #circle color:green -- project green circle to object pos
-if selection.count !=0 do gw.hMarker ( gw.hTransPoint [$.pos.x,$.pos.y,0] ) #circle color:green -- 3d object pos projected on grid
-
-
-
-gw.getTextExtent "Materials"
+vpt = GetActiveViewExp()graphics_window = vpt.getGW()rlim = gw->getRndLimits()GW_ILLUM				0x0000002GW_TEXTURE			0x0000010GW_Z_BUFFER			0x0000020rl = GW_ILLUM | GW_TEXTURE | GW_Z_BUFFER;setRndLimits(rl)if selection.count !=0 do gw.hMarker ( gw.hTransPoint $.pos) #circle color:green -- project green circle to object posif selection.count !=0 do gw.hMarker ( gw.hTransPoint [$.pos.x,$.pos.y,0] ) #circle color:green -- 3d object pos projected on gridgw.getTextExtent "Materials"
