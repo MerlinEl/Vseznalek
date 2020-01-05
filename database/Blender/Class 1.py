@@ -1,0 +1,1 @@
+class Person(object):    def __init__(self, name, age):        self.name = name        self.age = ageperson = Person("Joe", 25)print ("file:{0} was changed at{1}.".format(filename, date))

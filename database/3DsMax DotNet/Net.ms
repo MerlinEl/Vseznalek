@@ -1,0 +1,1 @@
+ni = dotNetClass "System.Net.NetworkInformation.NetworkInterface"ani = ni.GetAllNetworkInterfaces()for n in ani do (	adress = (n.getPhysicalAddress()).tostring()	format "n:%\n" adress)properties = dotNetClass "System.Net.NetworkInformation.IPGlobalProperties"connections = properties.GetActiveTcpConnections() --!

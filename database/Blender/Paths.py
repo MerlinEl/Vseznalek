@@ -1,0 +1,1 @@
+import addon_utilsprint("\n".join(addon_utils.paths()))

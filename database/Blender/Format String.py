@@ -1,0 +1,1 @@
+print ("file:{0} was changed at{1}.".format(filename, date))print "%s is %s years old." % (person.name, person.age)

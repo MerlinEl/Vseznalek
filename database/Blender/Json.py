@@ -1,0 +1,1 @@
+client:import json...arr1 = [1,2,3]arr2 = [4,5,6]someVar = 7data = json.dumps({"a": arr1, "b": arr2, "c": someVar})socket.send(data.encode())server:import json...data = socket.recv(1024)data = json.loads(data.decode())arr = data.get("a")var = data.get("c")
