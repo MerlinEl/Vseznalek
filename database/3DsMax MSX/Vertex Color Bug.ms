@@ -1,0 +1,1 @@
+https://forums.autodesk.com/t5/3ds-max-forum/vertex-color-bug-data-loss/td-p/4116633https://forums.autodesk.com/t5/3ds-max-forum/vertex-paint-tool-issues-3ds-max-2019/td-p/8162356
