@@ -1,0 +1,1 @@
+var d = new Window("window", "", undefined, {maximizeButton:false, minimizeButton:false, closeButton:true} );d.add("statictext", undefined, "PROCESSING .... WAIT!");d.show()//some comde //for (var i = 0; i < 100; i++)  activeDocument.activeLayer = activeDocument.layersd.close() 
