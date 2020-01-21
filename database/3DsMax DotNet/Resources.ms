@@ -1,0 +1,1 @@
+C:\Program Files\Autodesk\3ds Max 2018\stdplugs\stdscripts
