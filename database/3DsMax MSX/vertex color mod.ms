@@ -1,0 +1,1 @@
+(    newColor = [1.0,0.0,0.0]    uv =  uvwmap length:0.0 width:0.0 channel:1 utile:newColor.x vtile:newColor.y wtile:newColor.z    addModifier selection uv)
