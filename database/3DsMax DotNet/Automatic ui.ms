@@ -1,0 +1,1 @@
+				/* --next version (Component Generator)				struct UI_DATA (type, text, name, pos, size, range, step, icon)				local button_labels = #(									UI_DATA type:"button" text:"A" name:"btn_A" pos:[4,4] size:[btn_size, btn_size] icon:245					UI_DATA type:"spinner" text:"B" name:"btn_B" pos:[10,4] range:[1, 100, 1] step:0.1									)				*/
