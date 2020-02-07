@@ -1,0 +1,1 @@
+CPUID = ""dotnet.loadAssembly @"System.Management.dll" mc = dotNetObject "System.Management.ManagementClass" "Win32_Processor" moc = dotNetClass "System.Management.ManagementObjectCollection" moc = mc.GetInstances() enumerator = moc.GetEnumerator() while enumerator.MoveNext() do ( mo = enumerator.current append CPUID ( mo.Properties.Item["ProcessorId"].value ) )
