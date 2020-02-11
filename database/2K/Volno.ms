@@ -1,0 +1,1 @@
+Michal Dřímalka, Lucie Hudecová, Viliam Korbel
