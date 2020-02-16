@@ -1,1 +1,1 @@
-System.Threading.Thread.Sleep(1000)
+System.Threading.Thread.Sleep(1000)(dotnetClass "System.Threading.Thread").Sleep 1000 ---sleep 1 sec

@@ -1,13 +1,1 @@
-try(destroydialog drawRol) catch()
-rollout drawRol "Draw in Label"
-(
- dotNetControl lb "System.Windows.Forms.Label" width:180 height:30 pos:[10, 10]
- 
- local pen = dotNetObject "system.drawing.pen" (dotNetClass "system.drawing.color").red 2  
- on lb mouseDown s e do
- (
-  g = s.createGraphics() 
-  g.DrawLine pen 0 e.y s.bounds.width e.y
- )
-)
-createdialog drawRol width:200 height:50
+--DRAW LINEStry(destroydialog drawRol1) catch()rollout drawRol1 "Draw lines on in Label" (		dotNetControl lb "System.Windows.Forms.Label" width:180 height:30 pos:[10, 10]	local pen = dotNetObject "system.drawing.pen" (dotNetClass "system.drawing.color").red 2  	on lb mouseDown s e do (		g = s.createGraphics() 		g.DrawLine pen 0 e.y s.bounds.width e.y	))createdialog drawRol1 pos:[200, 200] width:200 height:50--DRAW PIXELStry(destroydialog drawRol2) catch()rollout drawRol2 "Draw dots in Label" (		dotNetControl lb "System.Windows.Forms.Label" width:180 height:30 pos:[10, 10]	local clr = (dotnetClass "System.Drawing.Color").FromARGB 255 0 0	local brush = undefined	local brush_color = blue	local brush_size = 8	fn drawImageRect w h clr:green = (		local bytesPixel = 0		local hColor = dotNetClass "System.Drawing.Color"		local hBitmap = dotNetObject "System.Drawing.Bitmap" w h		for yPixel = 1 to h do (		  for xPixel = 1 to w do (			iPixel = (w*(yPixel-1))+xPixel			jPixel = ((iPixel-1)*bytesPixel)+1			local redPixel = clr.r			local greenPixel = clr.g			local bluePixel = clr.b			local alphaPixel = 255			local hColorPixel = (hColor.FromARGB alphaPixel redPixel greenPixel bluePixel)			hBitmap.SetPixel (xPixel-1) (yPixel-1) hColorPixel		  )		)		hBitmap	)	on drawRol2 open do (				brush = drawImageRect brush_size brush_size clr:brush_color	)	on lb mouseDown s e do (		g = s.createGraphics() 		g.DrawImage brush e.x e.y brush_size brush_size	))createdialog drawRol2 pos:[200, 300] width:200 height:50
