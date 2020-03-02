@@ -1,0 +1,1 @@
+The Reference Manager path in the Registry Editor:HKCU\Software\Microsoft\VisualStudio\12.0\ReferenceManagerBut I couldn’t get the “Recent” option there, so I’m afraid that we couldn’t remove it in the Registry Editor.If you really want to clear the dll files there, one workaround is that you could remove them manually.
