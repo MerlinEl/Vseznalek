@@ -1,0 +1,1 @@
+			var snap_pos = (function(item_type) {								switch (item_type) {					case "Simple_Cage":						return {x:cage.x, y:cage.y};					case "Multi_Cage":						var slot = card.getHitOn(cage.all_slots);						if (!slot) {return null} else {							return cage.localToGlobal(slot.x, slot.y);						}					default: 						return null;				}			})(cage.itemType);
