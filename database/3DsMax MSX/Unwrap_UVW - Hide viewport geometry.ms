@@ -1,0 +1,1 @@
+Unwrap_UVW - Hide viewport geometrymod_uvw = modpanel.getcurrentobject()polyop.sethiddenfaces $.baseobject (mod_uvw.getSelectedFaces())mod_uvw.unwrap6.selectFacesByNode #{} $ --deselect hidden facesmod_uvw.Edit() --Refreshs the internal list of what components are selectable.
