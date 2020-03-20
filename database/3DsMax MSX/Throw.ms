@@ -1,0 +1,1 @@
+fn tes a = (if a > 5 then throw "A is too big:" a else messageBox "A is OK")tes 3tes 6

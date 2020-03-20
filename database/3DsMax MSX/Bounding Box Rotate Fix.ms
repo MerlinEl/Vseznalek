@@ -1,0 +1,1 @@
+fn resetBoundingBoxToSelection rotation_angle = (	for obj in selection do (		old_pos = obj.pos 		olr_rot_z = obj.rotation.z_rotation		obj.pivot = (obj.min + obj.max)/2		obj.rotation.z_rotation -= rotation_angle		resetXform obj		convertToPoly obj		obj.rotation.z_rotation += rotation_angle		obj.pivot = old_pos	))resetBoundingBoxToSelection 20
