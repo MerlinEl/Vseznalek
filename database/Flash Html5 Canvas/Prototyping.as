@@ -1,0 +1,1 @@
+var root = this;createjs.Container.prototype.getAiItem = function(item_name) {		return this[item_name]["ai_components"] || this[item_name];}createjs.Container.prototype.getObjectUnderPoint = function(x, y, mode) {	var pt = this.localToGlobal(x, y);	return this._getObjectsUnderPoint(pt.x, pt.y, null, mode>0, mode==1);}

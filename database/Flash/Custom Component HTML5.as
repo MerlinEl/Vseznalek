@@ -1,0 +1,1 @@
+Animate checks the following folders for any custom HTML5 Components and loads them on launch:• Windows:<AppData>/Local/Adobe/Adobe Animate 2017/en_US/Configuration/HTML5Components• MAC:~/Library/Application Support/Adobe/Animate 2017/en_US/Configuration/HTML5Components/%localappdata%\Adobe\Animate CC 2019\en_US\Configuration\HTML5Components
