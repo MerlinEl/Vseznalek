@@ -1,0 +1,1 @@
+            //string debug_path = Application.StartupPath;            //string flash_path = System.IO.Path.GetFullPath(System.IO.Path.Combine(debug_path, @"..\..\..\Flash_Project\EITest.swf"));            //Console.WriteLine("start up path:" + debug_path);            //Console.WriteLine("test up path:" + flash_path);            //player.LoadMovie(0, flash_path);
