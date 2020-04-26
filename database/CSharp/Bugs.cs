@@ -1,0 +1,1 @@
+Simplify type name"Code Cleanup" doesn't "Simplify type name"https://github.com/dotnet/roslyn/issues/31855
