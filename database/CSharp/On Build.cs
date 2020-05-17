@@ -1,0 +1,1 @@
+:: Copy Localization and Flash UI files in to bin\Debug dirxcopy /y $(ProjectDir)Resources\localization.xml  $(ProjectDir)$(OutDir)xcopy /y $(ProjectDir)Resources\FlashGraphicUI.swf  $(ProjectDir)$(OutDir):: Final copy all build files in to CD dirxcopy /y "$(ProjectDir)$(OutDir)*.*"  "$(SolutionDir)CD\Output\data"
