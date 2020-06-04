@@ -1,0 +1,1 @@
+how to change selection on Poly_Select modifier?You need to enumerate the modifiers modcontext withModifier::EnumModContexts ( ModContextEnumProc * proc )then from the modcontext sent to the proc object function…IMeshSelectData* msd = GetMeshSelectDataInterface(mc->localData);as the selection is local to the mesh not the modifer
