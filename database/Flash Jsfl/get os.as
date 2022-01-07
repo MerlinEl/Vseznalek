@@ -1,0 +1,1 @@
+var isMac = getOS()=="mac" ? true:false;function getOS(){    var tStr = FLfile.platformPathToURI("/Users/");    if (FLfile.exists(tStr)){        // fl.trace("isMac")        return "mac";    }else{        // fl.trace("isWindows"replace)        return "windows";    }}

@@ -1,0 +1,1 @@
+import flash.utils.setTimeout;//wait 1 second and executesetTimeout(function ():void { myGreeter.kocourkuUdelej("huraa"); }, 1000);setTimeout(trace,200,"hello world");setTimeout(functionToCall, delayInMilliseconds, optionalArgument1, optionalArgument2, etc);function functionToCall( arg1, arg2 ):void{	// start the work}

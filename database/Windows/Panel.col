@@ -1,0 +1,1 @@
+ Log in your PC as administrator. From START menu, right click “CommandPrompt” and select “run as administrator” option. Command Prompt window opens. In Command Prompt, type “set devmgr_show_nonpresent_devices=1”, hit ENTER. Then type “Start devmgmt.msc”, hit ENTER. Device Manager window opens.

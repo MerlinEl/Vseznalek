@@ -1,0 +1,1 @@
+/ /replace itemtemplate_obj.libraryItem = fl.getDocumentDOM().library.items[0];// renamevar doc = fl.getDocumentDOM();var lib = doc.library;lib.getSelectedItems().forEach(function(item){    item.name = item.name.replace("PonnyTemplate", "TemplatePonny");});

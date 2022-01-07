@@ -1,0 +1,1 @@
+wincmd.iniResolutionSpecific=10: Resolution-specific data like font style+size are stored in a single section called [AllResolutions]1: Resolution-specific data is stored in sections like [1024x768 (10x20)]

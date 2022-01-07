@@ -1,0 +1,1 @@
+int[] indexes = myCheckedListBox.CheckedIndices.Cast<int>().ToArray()String.Join(",", LbxChkSubtitles.CheckedIndices.Cast<int>().ToArray())

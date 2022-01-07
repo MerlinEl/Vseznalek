@@ -1,0 +1,1 @@
+if (process == null) throw new ArgumentNullException("process");

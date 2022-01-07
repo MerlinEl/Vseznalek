@@ -1,0 +1,1 @@
+Let's vector components are vx, vy. It's current magnitude isMag = Math.Sqrt(vx * vx + vy * vy)//as Piglet noticed in comment, you can use magnitude propertyTo make vector with the same direction but change magnitude, just multiply components by ratio of magnitudes:new_vx = vx * New_Mag / Magnew_vy = vy * New_Mag / Mag

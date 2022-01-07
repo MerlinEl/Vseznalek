@@ -1,0 +1,1 @@
+//delete objects at max radiustarget_object =  (getNodeByName "view.01") max_radius = 30000for o in selection where (distance o target_object)  > max_radius do delete o

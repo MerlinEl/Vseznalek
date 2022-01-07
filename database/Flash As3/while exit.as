@@ -1,0 +1,1 @@
+var cnt:int = 300;while (cnt-- > 0){		trace(cnt);	if (cnt < 200) break;}ctrace("break at:{0}", cnt);

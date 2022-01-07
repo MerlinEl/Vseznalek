@@ -1,0 +1,1 @@
+    private function removeTabsAndNewLines($str:String):String    {    	var rex:RegExp = /(\t|\n|\r)/gi;    	$str = $str.replace(rex,'');    	return $str;    }

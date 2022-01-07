@@ -1,0 +1,1 @@
+//rotate object around Y from center by 90 degreesmesh.transform.appendRotation(90, new Vector3D(0, 1, 0), m.position);

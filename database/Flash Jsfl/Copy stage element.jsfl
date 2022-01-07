@@ -1,0 +1,1 @@
+		doc.clipCut();		tl.deleteLayer(temp_text_layer_index);		tl.setSelectedLayers(cur_layer_index, true); // restore selection		doc.clipPaste(true); // paste in place

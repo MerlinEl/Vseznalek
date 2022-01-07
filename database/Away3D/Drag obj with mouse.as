@@ -1,0 +1,1 @@
+private var _drag3D:Drag3D;private var _sphere : Sphere;//create sphere geometry here in a function..._drag3D = new Drag3D(_view, ObjectContainer3D(_sphere));private function handleEnterFrame(e:Event) : void{  _drag3D.updateDrag();   _view.render();}

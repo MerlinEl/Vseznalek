@@ -1,0 +1,1 @@
+/** * Copyright (c) 2016 René Bača. * Thanks to: Ysohiki Shibukawa *///import mcJSFL.jsfl;class Point {	    var x : number;    var y : number;    function constructor (x : number, y : number)    {        this.x = x;        this.y = y;    }}

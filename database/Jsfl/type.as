@@ -1,1 +1,0 @@
-if(typeof superClass !== 'function'){ 	trace("type:"+sel[0].elementType)	trace("type:"+sel[0].symbolType)	trace("type:"+sel[0].textType)	trace("type:"+sel[0].instanceType)	trace("type:"+sel[0].constructor())

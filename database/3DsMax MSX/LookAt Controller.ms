@@ -1,0 +1,1 @@
+--Add controllerLAC = LookAt_Constraint relative:true --create a lookAt Constraint with Keep Initial Offset onfor o in selection  where o isValidNode do (	o.rotation.controller = LAC	o.rotation.controller.appendtarget $Camera001 100)--Remove ControllerEUC = Euler_XYZ()for o in selection do (	o.rotation.controller.deleteTarget(1)	o.rotation.controller = EUC)

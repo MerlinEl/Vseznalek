@@ -1,0 +1,1 @@
+Wscript.Echo "Folder dataPath exists:" & isFolderExists(objFSO, dataPath)Wscript.Echo ("Here is my sentence" & vbCrLf)

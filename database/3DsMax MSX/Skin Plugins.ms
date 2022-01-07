@@ -1,0 +1,1 @@
+EasySkin 1.0 for Autodesk 3ds Max http://www.raylightgames.com/easyskin/https://www.youtube.com/watch?v=sYYrydOi9VYWeight Pro 2.0 pluginhttps://km-3d.com/produkt/weight-pro-3ds-max-plugin/BonesPro Proxy Pluginhttps://www.bonespro.com/download-order/https://www.youtube.com/watch?v=qywFClKbbME&feature=emb_logo

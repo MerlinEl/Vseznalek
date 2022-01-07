@@ -1,0 +1,28 @@
+<SYNTAXES>
+	<item name="col">
+		<key name="keywords4" array='STOP, POZOR, BUG, FIX'/>
+		<key name="keywords5" array='OK'/>
+		<key name="keywords6" array='WAIT, PROGRESS, ALL, CHECK'/>
+		<key name="strings" array='&#39;.*?&#39;, &#39;.*?&#39;'/>
+		<key name="coments" array='//.*$, /\\\*[.\\w\\s]*\\\*/, /\\\*([^*]|[\\r\\n]|(\\\*+([^*/]|[\\r\\n])))*\\\*/'/>
+	</item>
+	
+	<item name="txt">
+		<key name="strings" array='&#39;.*?&#39;, &#39;.*?&#39;'/>
+		<key name="coments" array='//.*$, /\\\*[.\\w\\s]*\\\*/, /\\\*([^*]|[\\r\\n]|(\\\*+([^*/]|[\\r\\n])))*\\\*/'/>
+	</item>
+	
+	<item name="as3">
+		<key name="keywords1" array='Boolean, int, Number, String, uint, null, true, false, super, this, label, get, set'/>
+		<key name="keywords2" array='public, private, protected, internal, use, void, var, import, package, catch, finally, throw, try, break, case, continue, default, do, else, for, if, is, typeof, return, switch, while, in, class, const, extends, final, function, dynamic, implements, interface, native, new, static'/>
+		<key name="keywords3" array='xml, each]'/>
+		<key name="strings" array='&#39;.*?&#39;, &#39;.*?&#39;]'/>
+		<key name="coments" array='//.*$, /\\\*[.\\w\\s]*\\\*/, /\\\*([^*]|[\\r\\n]|(\\\*+([^*/]|[\\r\\n])))*\\\*/'/>
+	</item>
+	
+	<item name="rich">
+		<key name="strings" array='&#39;.*?&#39;, &#39;.*?&#39;]'/>
+		<key name="coments" array='//.*$, /\\\*[.\\w\\s]*\\\*/, /\\\*([^*]|[\\r\\n]|(\\\*+([^*/]|[\\r\\n])))*\\\*/'/>
+	</item>
+</SYNTAXES>
+

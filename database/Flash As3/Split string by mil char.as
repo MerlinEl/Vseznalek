@@ -1,0 +1,1 @@
+split by space and dotvar str_arr:Array = "pro 1. ročník základní školy".split(/ |\./);trace(str_arr)

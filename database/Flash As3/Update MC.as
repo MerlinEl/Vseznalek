@@ -1,0 +1,1 @@
+// when textfield changes text , parent mc height was not updated// redraw graphics to update sizemc.graphics.clear();mc.graphics.lineStyle(0,0,0);mc.graphics.beginFill(0x808080,0); // bogus filled rect, to capture eventsmc.graphics.drawRect(0,0,mc.width,tf.textHeight); // height is needed toomc.graphics.endFill();//ORtf.autoSize = TextFieldAutoSize.LEFT;

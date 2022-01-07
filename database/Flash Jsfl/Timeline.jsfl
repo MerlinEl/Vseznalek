@@ -1,0 +1,1 @@
+This gives you the length of a particular layer :      var layerIndex = 0;     fl.getDocumentDOM().getTimeline().layers[layerIndex].frames.length;This shows max frames including all the layers in timeline:     fl.getDocumentDOM().getTimeline().frameCount;

@@ -1,0 +1,1 @@
+#if DEBUG    if( fooVariable == true )        System.Diagnostics.Debugger.Break();#endif

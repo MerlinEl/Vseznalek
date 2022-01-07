@@ -1,0 +1,1 @@
+var itemIndex = fl.getDocumentDOM().library.findItemIndex( "myItem" );var theItem = fl.getDocumentDOM().library.items[itemIndex];fl.getDocumentDOM().addItem( {x:0,y:0}, theItem );

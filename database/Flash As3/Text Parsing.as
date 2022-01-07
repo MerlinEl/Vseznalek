@@ -1,0 +1,1 @@
+//replace double empty line with a single empty linestory_ta.text = evt.target.data.replace(/\r/g,"");

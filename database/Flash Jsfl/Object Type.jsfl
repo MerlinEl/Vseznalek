@@ -1,0 +1,1 @@
+if(Object.prototype.toString.call(someVar) === '[object Array]') {    alert('Array!');}if(typeof someVar === 'string') {    someVar = [someVar];}someVar = [].concat(someVar);if (somevar.constructor.name == "Array") {    // do something}const convertStringToArray = (object) => {   return (typeof object === 'string') ? Array(object) : object}

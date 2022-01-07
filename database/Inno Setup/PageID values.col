@@ -1,0 +1,1 @@
+https://jrsoftware.org/ishelp/index.php?topic=scriptevents&anchor=PageIDDo not use hardcoded IDs but use Inno Setup Constants:    PageID values for predefined wizard pages:    wpWelcome, wpLicense, wpPassword, wpInfoBefore, wpUserInfo, wpSelectDir, wpSelectComponents, wpSelectProgramGroup, wpSelectTasks, wpReady, wpPreparing, wpInstalling, wpInfoAfter, wpFinished

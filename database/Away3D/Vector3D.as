@@ -1,0 +1,1 @@
+function getVector3D(radius, angleXY, angleXZ) {  var sinXY = Math.sin(angleXY);  var cosXY = Math.cos(angleXY);  var sinXZ = Math.sin(angleXZ);  var cosXZ = Math.cos(angleXZ);  var vector = new Vector3D(radius * cosXY * cosXZ, radius * cosXY * sinXZ, radius * sinXY);  return vector;}

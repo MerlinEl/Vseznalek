@@ -1,0 +1,1 @@
+Associate the player with SWF files FlashDevelop Program Settings > FlashViewer > External Player pathreplace thisE:\Aprog\FlashDevelop\Apps\flashsa\19.0.0\flashplayer_19_sa_debug.exewithE:\Aprog\Orien\Flash\FlashPlayer\flashplayer_21_sa_debug.exe

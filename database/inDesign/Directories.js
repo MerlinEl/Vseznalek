@@ -1,0 +1,1 @@
+var myUsername = $.getenv('username');var myDocFolder = Folder.myDocuments;

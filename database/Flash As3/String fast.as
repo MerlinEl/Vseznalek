@@ -1,0 +1,1 @@
+var variables = "// define local variables\n\		var OrienTools\n\		var ctrace;\n\		var FLfileINI;\n\		var ManagerTools;\n\		";var str = 'OrienTools.getPanelMessage({\action:"' + obj.action + '", \callback:"' + obj.callback + '"\})'MMExecute(str);	

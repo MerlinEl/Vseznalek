@@ -1,0 +1,1 @@
+https://help.autodesk.com/view/3DSMAX/2017/ENU/?guid=__files_GUID_D5CB1C50_7CB5_4ADB_BDC3_B7E2A88A192D_htmfor i = 1 to 50 do PolyToolsSelect.PatternDots 1

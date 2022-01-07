@@ -1,0 +1,1 @@
+boolExists = arEvents.some(  function (xmlEvent:*, index:int, arr:Array):Boolean {    return xmlEvent.id == artistEvent.id;  });For clarity, the some() method only iterates over the array until the first item that returns true is reached, at which point iteration is terminated and the result (true) is returned.

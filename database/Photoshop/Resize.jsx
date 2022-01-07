@@ -1,0 +1,1 @@
+void resizeImage (UnitValue width, UnitValue height, Number resolution, ResampleMethod resampleMethod, int amount)doc.resizeImage(UnitValue(1024,"px"),UnitValue(1024,"px"),72,ResampleMethod.BICUBIC);activeDocument.activeLayer.resize(100 ,100,AnchorPosition.MIDDLECENTER); // Insure Place did not scale layer  

@@ -1,1 +1,1 @@
-´´´´´´´´´´UTF-8´´´´´´´´´´Set Default Codepage = 65001 in the program settings.´´´´´´´´´´Braces´´´´´´´´´´Tools > Program Settings > Flash Develop and then scroll to indenting and set coding style type to BracesOnLine.
+´´´´´´´´´´UTF-8´´´´´´´´´´Set Default Codepage = 65001 in the program settings.´´´´´´´´´´Braces´´´´´´´´´´Tools/Program Settings/Flash Develop/indenting/coding style =  BracesOnLineASCompletion/Reformat Braces = true

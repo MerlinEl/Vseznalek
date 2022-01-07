@@ -1,0 +1,1 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\ShellIconOverlayIdentifiersDropbox overlays were starting with a " (quoted identifier) in the registry. I deleted all the " prefixes and restarted explorer.exe. To fix this go to TortoiseSVN > settings > Icon Overlays > Status cache changed from default to shell.

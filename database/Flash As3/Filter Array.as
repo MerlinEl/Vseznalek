@@ -1,0 +1,1 @@
+					public function removeEmptyFields(source:Array):Array {				var new_array:Array = source.filter(function (item:*, ...args):Boolean {						return item != null;		});		return new_array;	}var arr:Array = [,,,12,45,78,,89,]trace(arr)arr = removeEmptyFields(arr);trace(arr)// out >,,,12,45,78,,8912,45,78,89

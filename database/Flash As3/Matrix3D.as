@@ -1,0 +1,1 @@
+var matrix:Matrix3D = rect2.transform.matrix3D; matrix.appendRotation(15, Vector3D.X_AXIS); matrix.appendScale(1.2, 1, 1); matrix.appendTranslation(100, 50, 0); matrix.appendRotation(10, Vector3D.Z_AXIS); rect2.transform.matrix3D = matrix; 

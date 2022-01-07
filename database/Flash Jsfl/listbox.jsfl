@@ -1,0 +1,1 @@
+var nameArray = new Array("January", "February", "March"); var monthArray = new Array();for (i=0; i<nameArray.length; i++){     elem = new Object();     elem.label = nameArray[i];     elem.value = i;    monthArray[i] = elem;}fl.xmlui.setControlItemElements("myControlID", monthArray);fl.getDocumentDOM().getDataFromDocument("defaultNewInstanceName");

@@ -1,0 +1,1 @@
+          if ( Lv_book_list.SelectedIndices.Count <= 0 ) return; //var selectedTags = this.Lv_book_list.CheckedIndices  int[] selectedIndexes = this.Lv_book_list.SelectedIndices                                 .Cast<int>()                                 .Select(i => i).ToArray();            if ( selectedIndexes.Length == 1 ) {

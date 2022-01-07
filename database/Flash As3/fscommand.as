@@ -1,0 +1,1 @@
+function exploreDir(directory) {fscommand("exec","start\t" + directory);fscommand("exec","cmd\t/C\tstart\t" + directory);}and call it like:exploreDir("c:\\my_directory");

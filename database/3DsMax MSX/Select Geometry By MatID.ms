@@ -1,0 +1,1 @@
+fn selectFacesByMaterialID = (	local obj = selection[1]	local fsel = polyOp.getFaceSelection obj	local sel_ids = (for f in fsel collect polyOp.getFaceMatID obj f) as bitarray	local faces = (for f = 1 to obj.numfaces where (findItem sel_ids (polyOp.getFaceMatID obj f) > 0) collect f)	polyOp.setFaceSelection obj faces	completeRedraw())selectFacesByMaterialID()

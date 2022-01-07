@@ -1,0 +1,1 @@
+FIX: Windows 10 April 2018 Update Adds Extra LanguageRight click Start Button or press W8K + X keys and select Windows PowerShell (Admin).Get-WinUserLanguageList$1=New-WinUserLanguageList csSet-WinUserLanguageList $1After this, when opted, type Y to confirm setting preferred language and remove extra language.

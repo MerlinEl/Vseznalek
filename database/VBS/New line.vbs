@@ -1,0 +1,1 @@
+Response.Write ("Here is my sentence" & vbCrLf)

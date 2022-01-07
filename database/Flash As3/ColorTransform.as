@@ -1,0 +1,1 @@
+    var co:Number =1.2;    bmd.colorTransform(new Rectangle(0, 0, bmd.width, bmd.height), new ColorTransform(co,co,co,1) );

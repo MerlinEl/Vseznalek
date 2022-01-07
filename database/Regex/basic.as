@@ -1,0 +1,1 @@
+// Match all capital letters and check the length of the returned match array.var caps:int = thestring.match(/[A-Z]/g).length;trace(caps); // 3

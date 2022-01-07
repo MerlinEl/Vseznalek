@@ -1,0 +1,1 @@
+Right-click any Notepad++ shortcut.Select Properties.Move to the Shortcut tab.In the end of the Target field, add ” -multiInst”.Click OK.Target: “C:\Program Files\Notepad++\notepad++.exe” -multiInstcmd > "E:\Aprog\Notepad-MSX\+\Notepad-MSX-Dark\notepad++.exe" -multiInst

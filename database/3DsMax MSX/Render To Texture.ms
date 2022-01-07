@@ -1,0 +1,1 @@
+Pixelated fix:1) Render texture with double size and scale it down when finished2) Render Setup/Renderer/Global Supersampling/change to: Hammersley > quality 1

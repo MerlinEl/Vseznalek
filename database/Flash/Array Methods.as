@@ -1,1 +1,0 @@
-//CONCATvar numbers:Array = new Array(1, 2, 3);var letters:Array = new Array("a", "b", "c");var numbersAndLetters:Array = numbers.concat(letters);var lettersAndNumbers:Array = letters.concat(numbers);trace(numbers);       // 1,2,3trace(letters);       // a,b,ctrace(numbersAndLetters); // 1,2,3,a,b,ctrace(lettersAndNumbers); // a,b,c,1,2,3

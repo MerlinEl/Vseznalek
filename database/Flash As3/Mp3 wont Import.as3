@@ -1,0 +1,1 @@
+Make sure the MP3 is 16 bit, and not 24 or 32. Also, being 44.1 KHz would help, but it's the fact that they are 32 bit that stops them from importing.16-bit 44100Hz

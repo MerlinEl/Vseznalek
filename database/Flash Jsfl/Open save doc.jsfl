@@ -1,0 +1,1 @@
+var docURI= fl.documents[0].pathURI;// get name&location of current documentvar appendName = "_appended.fla";docURI=docURI.replace(".fla",appendName);//create appended name for new version//(do stuff to my fla)fl.saveDocument(fl.documents[0] ,docURI);//save as new doc namefl.openDocument(docURI);//open this newly saved document

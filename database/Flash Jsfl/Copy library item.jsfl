@@ -1,0 +1,1 @@
+fl.copyLibraryItem("file:///c:/users/userid/Desktop/Robot.fla", "armjoint-l1");fl.getDocumentDOM().clipPaste(true);

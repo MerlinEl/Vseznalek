@@ -1,0 +1,1 @@
+	/*fn textBoxMouseEnter s a  = (		enableAccelerators = true	),	fn textBoxMouseLeave s a  = (		enableAccelerators = false	),	dotnet.addEventHandler edtBox "MouseEnter" textBoxMouseEnter	dotnet.addEventHandler edtBox "MouseLeave" textBoxMouseLeave	*/

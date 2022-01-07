@@ -1,0 +1,1 @@
+function Publish (uri) {	fl.publishDocument(uri);	output += "Publish: "+uri+"\n";	var errorsLink = fl.scriptURI.replace (fl.scriptURI.replace ("file:///", ""). split ("/").pop (), "") + "errors.log";	fl.compilerErrors.save(errorsLink);	var errors = FLfile.read(errorsLink).split ("\r\n");	FLfile.remove (errorsLink);	output += "         "+errors[errors.length-1]+"\n";}

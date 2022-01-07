@@ -1,0 +1,1 @@
+for o in selection do o.name = replace o.name (findString o.name "_Vlastik") 8 ""

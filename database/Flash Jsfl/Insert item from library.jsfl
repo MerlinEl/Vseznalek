@@ -1,0 +1,1 @@
+//JSFL How do I add an instance of a Library item to a different Library item?mainFlaLibrary.editItem("Face");selectedIndex = mainFlaLibrary.findItemIndex("Eyes");selectedItem = mainFlaLibrary.items[selectedIndex];mainFla.addItem({x:0, y:0}, selectedItem); //This is equivalent to double clicking the Face, and dragging an instance of Eyes into it from the library.

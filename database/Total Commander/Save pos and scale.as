@@ -1,0 +1,1 @@
+Once you set up TC window relative to your netbook screen and dpi - just go menu "Configuration" and click "Save position". Then restart TC, and enjoy =)

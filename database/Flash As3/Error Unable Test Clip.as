@@ -1,0 +1,1 @@
+ERROR:Spuštění příkazu Testovat film se nezdařilo.Testovací film ukončen.application descriptor not foundDISCOVERY:if parent folder name is with diacriticSOLUTION:

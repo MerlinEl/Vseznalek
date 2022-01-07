@@ -1,0 +1,1 @@
+//vložení fotografie do objektuvar projector:TextureProjector = new TextureProjector(photoBitmapData); projector..position = new Vector3D(0,100,0); bodyMaterial.addMethod(new ProjectiveTextureMethod(projector));

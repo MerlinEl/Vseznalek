@@ -1,0 +1,1 @@
+Option Explicit Dim objFSO, objShell, objFolder, strDirectory, i, alphabetSet objShell = CreateObject("WScript.Shell")Set objFSO = CreateObject("Scripting.FileSystemObject") strDirectory = objShell.CurrentDirectoryalphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"For i = 1 To Len(alphabet)	Set objFolder = objFSO.CreateFolder(strDirectory & "\sctipt_" & Mid(alphabet, i, 1)) Next

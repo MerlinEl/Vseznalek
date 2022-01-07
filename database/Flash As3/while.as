@@ -1,0 +1,1 @@
+var cnt:int = 4while(cnt--) trace(cnt)ctrace("while done with:{0}", cnt)// Out >3210while done with:-1

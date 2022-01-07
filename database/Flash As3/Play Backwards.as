@@ -1,0 +1,1 @@
+function playBackwards():void{	addEventListener(Event.ENTER_FRAME, enterFrame);}function enterFrame(e:Event):void {      prevFrame();}

@@ -1,0 +1,1 @@
+declareLocale.addXMLPath("mk", pathT0+"My_mk.xml");Locale.addXMLPath("en", pathT0+"My_en.xml");add combobox instead of Button with list of language codes("mk","en"... you want to switchand addListener(Event.Change,onSwitchButtonClick)insidefunction onSwitchButtonClick(e:Event){Locale.loadLanguageXML(e.target.selectedItem,onLanguageLoad);}

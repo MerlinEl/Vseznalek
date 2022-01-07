@@ -1,0 +1,1 @@
+doc.convertToSymbol('graphic', '__temp__', 'center');doc.enterEditMode('inPlace');doc.distributeToLayers();doc.exitEditMode();doc.breakApart();element.beginEdit();element.endEdit();

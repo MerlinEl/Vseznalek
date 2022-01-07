@@ -1,0 +1,1 @@
+	<script>		<![CDATA[			if(window.xjsfl)			{				xjsfl.ui.handleEvent({xulid}, 'initialize');			}		]]>	</script>

@@ -1,0 +1,1 @@
+if(xmlIn.hasOwnProperty("@id")){    foo(xmlIn.attribute("id"); // xmlIn is of type XML}var pased_time_sec:int = lesson_item.hasOwnProperty("@pasedTime") ? int(lesson_item.@pasedTime) : 0;

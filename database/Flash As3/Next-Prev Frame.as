@@ -1,0 +1,1 @@
+var btn_prev_frame:mcSimpleButton;var btn_next_frame:mcSimpleButton;btn_prev_frame.on_up = function(){prevFrame()};btn_next_frame.on_up = function(){nextFrame()};

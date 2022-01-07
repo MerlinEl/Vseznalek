@@ -1,0 +1,1 @@
+trackbar.visible=truetrackViews.Open "Trackbar"trackViews.Close "Trackbar"trackViews.numTrackViews()tview = trackViews.getTrackView "Trackbar"tview.ui.saveLayout "DefaultLayout"tview.ui.loadLayout "DefaultLayout"actionMan.executeAction 0 "40282"

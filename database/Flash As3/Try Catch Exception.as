@@ -1,0 +1,1 @@
+				public function get hotKey():* {						return _hotKey;		}				public function set hotKey(value:*):void {						if (value is String) {				_hotKey = value;			} else if (value is int) {				_hotKey = String.fromCharCode(value);			} else {				throw new Error("HotKey must be a String or an integer");			}						message = "Hotkey set to '" + _hotKey + "'";		}

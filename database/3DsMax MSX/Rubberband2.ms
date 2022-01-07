@@ -1,0 +1,1 @@
+   -- Check to see if we have anything selected   if selection.count == 1 do ( 	-- Allow the user to select the object to be copied to 	local objToCopyTo = pickObject message:"Please select the object to be copied to" rubberband:$.position 	-- Make sure that the user selected something... 	if objToCopyTo != undefined do (

@@ -1,4 +1,1 @@
-mesh vertices:#([0,0,0],[40,0,0],[40,25,0],[0,25,0]) faces:#([3,2,1], [1,4,3])
-extrudeFace $ #(1) (80 * 0.5) 40 dir:#common
-extrudeFace $ 2 (80 * 0.5) 40
-extrudeFace $ #(1,2) (80 * 0.5) 50 dir:#common
+mesh vertices:#([0,0,0],[40,0,0],[40,25,0],[0,25,0]) faces:#([3,2,1], [1,4,3])extrudeFace $ #(1) (80 * 0.5) 40 dir:#commonextrudeFace $ 2 (80 * 0.5) 40extrudeFace $ #(1,2) (80 * 0.5) 50 dir:#common(theObj = $Teapot01 --the objecttheTMesh = snapshotAsMesh theObj --snapshot as TriMesh to memorytheNewMesh = Editable_mesh() --create an empty EMeshtheNewMesh.mesh = theTMesh --assign TriMesh value to the EMeshconvertTo theNewMesh Editable_Poly --collapse to EPolydelete theTMesh --free up memory)
