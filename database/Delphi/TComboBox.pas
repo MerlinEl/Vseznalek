@@ -1,0 +1,1 @@
+//Add remove itemsprocedure TForm1.BtnAddUserClick(Sender: TObject);begin    CbxUserName.Items.Add(CbxUserName.Text);end;procedure TForm1.BtnRemoveUserClick(Sender: TObject);begin    CbxUserName.Items.Delete(CbxUserName.ItemIndex);    if CbxUserName.Items.Count > 0 then        CbxUserName.ItemIndex := 0;end;

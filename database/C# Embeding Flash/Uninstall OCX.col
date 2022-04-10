@@ -1,0 +1,1 @@
+//RemoveFlashUtil9b.exe -uninstallUnlock c:\WINDOWS\System32\Macromed\Flash\Flash9b.ocx//Registerregsvr32.exe c:\windows\system32\Macromed\Flash\Flash8b.ocx//UnrehisterUninstFl.exe -u c:\windows\system32\Macromed\Flash\Flash8.ocx

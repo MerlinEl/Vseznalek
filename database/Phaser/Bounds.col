@@ -1,0 +1,1 @@
+Phaser.Geom.Rectangle.Overlaps(player.getBounds(), zone.getBounds())

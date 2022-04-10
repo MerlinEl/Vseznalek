@@ -1,0 +1,1 @@
+STOP ALL SOUND IN PHASER 3 GAMEthis.game.sound.stopAll();

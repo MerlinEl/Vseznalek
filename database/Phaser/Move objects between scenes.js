@@ -1,0 +1,1 @@
+//you can drag an item from the world (main scene) to your inventory (UI scene).obj.scene.sys.updateList.remove(pawn);obj.scene.sys.displayList.remove(pawn);obj.scene = scene;scene.sys.updateList.add(obj);scene.sys.displayList.add(obj);

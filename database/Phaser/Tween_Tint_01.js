@@ -1,0 +1,1 @@
+        const image = this.add.image(400, 300, 'face');        this.tweens.addCounter({            from: 255,            to: 0,            duration: 5000,            onUpdate: function (tween)            {                const value = Math.floor(tween.getValue());                image.setTint(Phaser.Display.Color.GetColor(value, value, value));            }        });

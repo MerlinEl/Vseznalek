@@ -1,0 +1,1 @@
+//Shortcuts Ctrl+Shift+I > it opens the DevToolsCtrl+K > open cmd//NPMnpm install --save-dev path/to/plugin/
