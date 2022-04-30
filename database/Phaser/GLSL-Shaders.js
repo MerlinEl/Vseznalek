@@ -1,0 +1,1 @@
+"vec2 normalPos = gl_FragCoord.xy / resolution.xy;",			"float pos = (gl_FragCoord.y / resolution.y);",			"float mouse_dist = length(vec2((mouse.x - normalPos.x) * (resolution.x / resolution.y) , mouse.y - normalPos.y));",			"float distortion = clamp(1.0 - (mouse_dist + 0.1) * 3.0, 0.0, 1.0);",
