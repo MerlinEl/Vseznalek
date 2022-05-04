@@ -1,0 +1,1 @@
+var files = Directory.GetFiles("path/to/directory", prefix + "?.jpg");
