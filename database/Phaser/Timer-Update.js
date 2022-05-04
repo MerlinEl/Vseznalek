@@ -1,0 +1,1 @@
+//trigger an event every 1 secondthis.resources = 0;this.timer = 0;update(time, delta) {    this.timer += delta;    while (this.timer > 1000) {        this.resources += 1;        this.timer -= 1000;    }    // Rest of your update loop.}

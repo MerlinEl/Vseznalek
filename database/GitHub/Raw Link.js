@@ -1,0 +1,1 @@
+// browser pathhttps://github.com/MerlinEl/Assets/blob/master/images/dino.png// raw pathhttps://raw.githubusercontent.com/MerlinEl/Assets/master/images/dino.png

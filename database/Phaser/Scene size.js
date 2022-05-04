@@ -1,0 +1,1 @@
+let { width, height } = this.sys.game.canvas;
