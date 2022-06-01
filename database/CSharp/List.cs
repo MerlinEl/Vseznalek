@@ -1,0 +1,1 @@
+   private readonly List<ResizeBox> ControlsList = new List<ResizeBox>();   ControlsList.AddRange(new List<ResizeBox> {                 topBox,                 bottomBox,                 leftBox,                 rightBox,                 topLeftBox,                 topRightBox,                 bottomLeftBox,                 bottomRightBox             });

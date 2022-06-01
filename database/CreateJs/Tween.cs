@@ -1,0 +1,1 @@
+createjs.Tween.removeTweens(projectile);createjs.Tween.removeAllTweens();

@@ -1,0 +1,1 @@
+   textBox.MouseDoubleClick += new MouseEventHandler(this.LabelMouseDoubleClick);        private void LabelMouseDoubleClick(object sender, MouseEventArgs e) {            Console.WriteLine("double");            textBox.ReadOnly = false;            textBox.Focus();            //textBox.Location = label.PointToScreen(new Point(e.X + 5, e.Y + 5));        }

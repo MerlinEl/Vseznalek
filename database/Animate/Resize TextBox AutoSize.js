@@ -1,0 +1,1 @@
+https://htmldom.dev/resize-the-width-of-a-text-box-to-fit-its-content-automatically/

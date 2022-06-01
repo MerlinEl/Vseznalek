@@ -1,0 +1,1 @@
+Controls.OfType<Sprite>().ToList().ForEach(sprite => sprite.Selected = false);//ORforeach (Sprite sprite in Controls.OfType<Sprite>()) {             sprite.Selected = false;}//ORforeach (Control sprite in Controls.Cast<Control>().OrderBy(c => c.TabIndex)) {                		if (sprite is Sprite) ((Sprite)sprite).Selected = false;}

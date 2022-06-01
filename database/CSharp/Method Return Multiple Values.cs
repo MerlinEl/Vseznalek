@@ -1,0 +1,1 @@
+(string, string, int) LookupName(long id) // tuple return type{    ... // retrieve first, middle and myNum from data storage    return (first, middle, myNum); // tuple literal}

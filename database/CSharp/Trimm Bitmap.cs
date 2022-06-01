@@ -1,0 +1,1 @@
+Bitmap Bmp = ((Bitmap)PictureBox1.Image).Clone(EyesRect, PictureBox1.Image.PixelFormat);      Bmp.Save(@"C:\EyesFromImage");      Bmp.Dispose();

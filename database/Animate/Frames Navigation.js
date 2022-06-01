@@ -1,0 +1,1 @@
+var _stage = this; // stagevar _maxPage = _stage.timeline.duration - 1; // total pages// event handlersfunction navPrev() {	var cur = _stage.timeline.position;	if (cur > 0) {		_stage.gotoAndStop(cur - 1);	}}function navNext() {	var cur = _stage.timeline.position;	if (cur < _maxPage) {		_stage.gotoAndStop(cur + 1);	}}

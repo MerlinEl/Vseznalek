@@ -1,1 +1,1 @@
-       protected override void OnPaint(PaintEventArgs e) {            base.OnPaint(e);            Graphics g = e.Graphics;            g.Clear(Color.Transparent);
+       protected override void OnPaint(PaintEventArgs e) {            base.OnPaint(e);            Graphics g = e.Graphics;            g.Clear(Color.Transparent);// Create a Graphics object for the Control.   Graphics g = control.CreateGraphics();
