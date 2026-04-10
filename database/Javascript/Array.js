@@ -1,0 +1,1 @@
+ingredients.forEach((entry, index, arr) => {				//log("Second bottle label:", entry.label, "index:", index, "temp:", entry.temperature);	bubbles_b[index].textField.text = entry.label;})

@@ -1,0 +1,1 @@
+			// calculate animation duration			var dist_x = Math.abs(pos_x) - Math.abs(ct.theif_sl0_01.x);			var speed = 700 / 1000; // 600px / 1000ms			var duration = dist_x / speed;

@@ -1,0 +1,1 @@
+    const style = document.createElement("style");    style.innerHTML = `        .prevent-select {            -webkit-user-select: none; /* Safari */            -ms-user-select: none; /* IE 10 and IE 11 */            user-select: none; /* Standard syntax */        };    `;    document.head.appendChild(style);

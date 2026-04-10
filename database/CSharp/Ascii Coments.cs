@@ -1,0 +1,1 @@
+        /// <summary>        /// Loop trough ObjectCollection with item and index        /// <br>@example</br>        /// <br>senderComboBox.Items.ForEach&#60;UndoRecord&#62;((itm, index) => {</br>        /// <br>    Console.WriteLine("({1})itm:{0}", itm.Label, index);</br>        /// <br>});</br>        /// </summary>< = &#60;> = &#62;

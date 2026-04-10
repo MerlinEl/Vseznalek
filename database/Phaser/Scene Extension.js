@@ -1,0 +1,1 @@
+class MainScene extends BaseScene {    constructor(){        super("MainScene");     }    preload(){}    create(){        Orien.log("Ready!");    }    update(){}}class BaseScene extends Phaser.Scene{    constructor(key){        super(key)    }    preload(){}    create(){        Orien.log("Ready!");    }    update(){}}

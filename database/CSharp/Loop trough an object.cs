@@ -1,0 +1,1 @@
+				foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(a)) {					string n = descriptor.Name;					object v = descriptor.GetValue(a);					Console.WriteLine("\t\t{0}={1}", n, v);				}

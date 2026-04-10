@@ -1,0 +1,1 @@
+		[Embed(source="../fonts/GGSUBSCR.ttf", fontFamily="GG_SUBSCR", embedAsCFF="false")]		var fnt_sub:Class;		[Embed(source="../fonts/GGSUPERS.ttf", fontFamily="GG_SUPERS", embedAsCFF="false")]		var fnt_sup:Class;//test if is embededmcText.showEmbeddedFonts();		//Font.registerFont(fnt_sub);		//mcText.showEmbeddedFonts();

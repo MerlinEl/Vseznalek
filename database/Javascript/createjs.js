@@ -1,0 +1,1 @@
+createjs.Tween.get(particle).to({x:1000}, 2000)  .on("change", function(evt) {    console.log(evt.target);             // Tween    console.log(evt.target.name);        // undefined    console.log(evt.target.target);      // particle    console.log(evt.target.target.name); // particle's name  }, that);

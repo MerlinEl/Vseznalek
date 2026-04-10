@@ -1,0 +1,1 @@
+Enter permission 755 in the Numeric value field, select Apply to directories only, and press OK.The general practice for file permission numeric values is using 755 for folders, 644 for static content, and 700 for dynamic content.

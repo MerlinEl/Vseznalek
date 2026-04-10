@@ -1,0 +1,1 @@
+        float getAlphaByDarken (vec3 clr){            return 0.2;         }        vec4 mulColors(in vec4 c1, in vec4 c2){            return vec4(                clamp(c1.r * c2.r ,0.0, 1.0),                clamp(c1.g * c2.g ,0.0, 1.0),                clamp(c1.b * c2.b ,0.0, 1.0),                clamp(c1.a * c2.a ,0.0, 1.0)            );        }

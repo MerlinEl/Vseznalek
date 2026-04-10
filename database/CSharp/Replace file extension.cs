@@ -1,0 +1,1 @@
+Path.ChangeExtension(CurrentLessonPath, ".jpg")

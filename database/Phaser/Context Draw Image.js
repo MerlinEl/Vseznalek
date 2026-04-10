@@ -1,0 +1,1 @@
+const texture = scnFrame.textures.createCanvas("texture-key", 600, 600);const context = texture.getSourceImage().getContext("2d");// I can successfully draw an imagecontext.drawImage(scnFrame.textures.get("image-key").getSourceImage(), 0, 0);

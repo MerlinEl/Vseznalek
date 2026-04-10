@@ -1,0 +1,1 @@
+// not testedvar time = 10var r1 = 6var r2 = 10var a1 = 360var prop = r1 / r2;var a2 = a1 * prop;

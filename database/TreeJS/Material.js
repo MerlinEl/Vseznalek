@@ -1,0 +1,1 @@
+									// basic material is not affected by lights									/*m.material = new THREE.MeshBasicMaterial({										color: shadersColor.fogRing.color,										transparent: true,										map: m.material.map									});*/

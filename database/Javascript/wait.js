@@ -1,0 +1,1 @@
+		setTimeout(function(){						Orien.collect(ct, ["focus"]).forEach(f=>{ f.restart(); })		}, 2000);

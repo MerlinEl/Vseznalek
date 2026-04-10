@@ -1,0 +1,1 @@
+    preload() {        this.load.bitmapFont("desyrel", "_common/assets/fonts/desyrel.png", "_common/assets/fonts/desyrel.xml");    }        const text_07 = this.add.bitmapText(34, 665, "times-nr", "Já se vydám i na             oravu, do města             lomouc.", 24);        text_07.setLetterSpacing(1.8);        text_07.depth = 4;        text_07.name = "text_07";

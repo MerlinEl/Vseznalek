@@ -1,0 +1,1 @@
+                // convert range 0-100 to min = -1.0 max = 1.0                //var contrast = 0.0f;                //if (value > 50) {                //    contrast = (value - 50) / 50.0f; // 0 - 1                //} else {                //    contrast = value / -50.0f; // -1 - 0                //}

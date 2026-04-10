@@ -1,0 +1,1 @@
+            CultureInfo ci = new CultureInfo("cs-CZ");            DateTimeFormatInfo info = ci.DateTimeFormat;            string monthName = info.MonthNames[DateTime.Now.Month - 1];            LblDay.Text = monthName + " "+ DateTime.Now.Date.ToString("dd.MM.yyyy");

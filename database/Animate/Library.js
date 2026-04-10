@@ -1,1 +1,1 @@
-...
+// 1)  add linkage name in to library item// 2) create instancesvar ct = this;var totalFrames = Orien.getTotalFrames(window.timeline);for (var i = 0; i < totalFrames; i++){		var btn = new lib.pages_navnum_01();	btn.x += 20 * i;	ct.addChild(btn);}

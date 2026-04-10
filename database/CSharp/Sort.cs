@@ -1,0 +1,1 @@
+	var Dots = new List<SplinePoint>();	Dots = Dots.OrderBy(d => d.Index).ToList();// OR   Dots.Sort((x, y) => x.Index.CompareTo(y.Index));   public int CompareTo<T>( T this  objA,  T objB) {        if ( objB == null ) return 1;        if ( objA,.index > objB.index) return 1;        if ( objA,.index < objB.index) return -1;        return 0;    }

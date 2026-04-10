@@ -1,0 +1,1 @@
+var c1 = "card_yes_sl7_01";var c2 = "card_no_sl7_01";	console.log("c1:", c1, "oposite:", getOpositeCard(c1));console.log("c2:", c2, "oposite:", getOpositeCard(c2));function getOpositeCard(card_name){		if (card_name.indexOf("yes") != -1){				return card_name.replace("yes", "no");			} else {				return card_name.replace("no", "yes");	}}

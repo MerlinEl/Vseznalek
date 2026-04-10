@@ -1,0 +1,1 @@
+			const params = {				textField: "This is a placeholder text"			}			const gui = new GUI();			gui.add(params, "textField").onFinishChange(function (value) {				//Do something with the new value			});			gui.open();

@@ -1,0 +1,1 @@
+// library properties:lib.properties = {	width: 550,	height: 400,	fps: 30,	color: "#FFFFFF",	opacity: 1.00,	webfonts: {},	manifest: [		{src:"images/flowers.jpg", id:"flowers"}	],	preloads: []};// helper functions:(lib.flowers = function() {	this.initialize(img.flowers);}).prototype = p = new cjs.Bitmap();p.nominalBounds = new cjs.Rectangle(0,0,500,333);

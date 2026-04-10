@@ -1,0 +1,1 @@
+ index = CbxFontName.FindString(value, -1);                   //ORfor (var i = 0; i < CbxFontName.Items.Count; i++) {	var str = (string)CbxFontName.Items[i];	if (str != null && str.ToLower() == value.ToLower()) {		 index = i; break;	}}

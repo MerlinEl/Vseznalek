@@ -1,0 +1,1 @@
+this.add.text(300, 525, "text", style).setOrigin(0.5, 0.5);orPhaser.Display.Align.In.Center(text, this.add.zone(x, y, width, height));

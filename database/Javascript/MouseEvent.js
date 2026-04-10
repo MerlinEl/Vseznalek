@@ -1,0 +1,1 @@
+const para = document.querySelector("body");        para.onpointermove = (evt) => {            console.log("Pointer moved on body:", para, "evt:", evt);        };	<script type="text/javascript">		alert("DEBUG LESSON STARTED!");		addEventListener("pointermove", (evt) => {			console.log("test mouse move... evt:", evt)		});	</script>

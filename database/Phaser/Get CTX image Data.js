@@ -1,0 +1,1 @@
+    var img1 = ctx.getImageData(0, 0, width, height);    var data = img1.data;    var buffer = new ArrayBuffer(data.length);    var binary = new Uint8Array(buffer);

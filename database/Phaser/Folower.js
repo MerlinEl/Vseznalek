@@ -1,0 +1,1 @@
+let curve = new Phaser.Curves.Ellipse(196,292,96,96,180, 270);let car = this.add.follower(curve, 196,292, 'car');			car.startFollow({	duration: 500,	yoyo: false,	repeat: 0,	rotateToPath: true,	verticalAdjust: true, 	rotationOffset:90});

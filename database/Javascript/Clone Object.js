@@ -1,0 +1,1 @@
+const config = JSON.parse(JSON.stringify(this.config));

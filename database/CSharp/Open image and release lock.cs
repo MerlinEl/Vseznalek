@@ -1,0 +1,1 @@
+Image img;using (var bmpTemp = new Bitmap("image_file_path")){    img = new Bitmap(bmpTemp);}

@@ -1,0 +1,1 @@
+		console.log("call awaked.....")		this.events.once("scene-awake", () => {console.log("scene awaked.....")});		this.events.emit("scene-awake");

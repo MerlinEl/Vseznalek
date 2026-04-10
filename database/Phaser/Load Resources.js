@@ -1,0 +1,1 @@
+this.scene.load.image('rainbow', '_common/assets/ui/rainbow_01.png');this.scene.load.image('mask', '_common/assets/masks/radial_gradient_02.png');

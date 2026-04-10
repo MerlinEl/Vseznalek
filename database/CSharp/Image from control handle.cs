@@ -1,0 +1,1 @@
+/// not works maybe wrong handle            var g = Graphics.FromHwnd(Handle);            return new Bitmap(Width, Height, g);

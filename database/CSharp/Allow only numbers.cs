@@ -1,0 +1,1 @@
+// This only allows numbers to be inputted into the text box.// To allow a decimal point or minus sign, you can change the regular expression to [^0-9.-]+.void MyTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e){    e.Handled = new Regex("[^0-9]+").IsMatch(e.Text);}

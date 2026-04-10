@@ -1,0 +1,1 @@
+Right click the Toolbox, then Choose items and browse for the .dll file that contains your control. The Toolbox will add all the components found in that dll. Also check in Tools -> Options -> Windows Forms Designer if the AutoToolboxPopulate setting is set to true.

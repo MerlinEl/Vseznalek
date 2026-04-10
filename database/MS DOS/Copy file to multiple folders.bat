@@ -1,0 +1,1 @@
+for /D %%a in ("E:\Work\Edhance\work\repla\*.*") do xcopy /y /d E:\Work\Edhance\work\repla\che_8_.fla "%%a\"pause

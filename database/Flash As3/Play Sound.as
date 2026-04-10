@@ -1,0 +1,1 @@
+     var fl_SC:SoundChannel;    var s:Sound = new Sound(new URLRequest("http://www.helpexamples.com/flash/sound/song1.mp3"));          fl_SC = s.play();ExampleButton.addEventListener(MouseEvent.CLICK, fl_ClickToStopAllSounds);function fl_ClickToStopAllSounds(event:MouseEvent):void{     SoundMixer.stopAll();}

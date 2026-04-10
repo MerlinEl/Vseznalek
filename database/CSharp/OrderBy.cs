@@ -1,0 +1,1 @@
+var firstIndex = SelectedSprites.First().SetIndex;SelectedSprites.OrderBy(o => o.Location.X).ForEach(s => s.SetIndex = firstIndex++);

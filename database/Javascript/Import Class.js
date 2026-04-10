@@ -1,0 +1,1 @@
+	// test to load external librarydocument.writeln("<script type='text/javascript' src='./Ajo.js'></script>");const Ajo = require('./Ajo.js');import Ajo from './Ajo.js';

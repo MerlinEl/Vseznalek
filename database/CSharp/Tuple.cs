@@ -1,0 +1,1 @@
+internal static Tuple<string, string> ImportBackground() {            var resultImageName = String.Empty;            var resultImagePath = String.Empty;	return Tuple.Create(resultImageName, resultImagePath);}

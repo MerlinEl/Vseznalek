@@ -1,0 +1,1 @@
+	/** @type {Phaser.GameObjects.Image} */	rainbow_01;	/** @type {string} */	instanceName = "";

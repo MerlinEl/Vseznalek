@@ -1,0 +1,1 @@
+            var method = typeof(PictureBox).GetMethod("ImageRectangleFromSizeMode",                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);            var imageRect = (Rectangle)method.Invoke(p, new object[] { p.SizeMode });

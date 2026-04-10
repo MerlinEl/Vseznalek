@@ -1,0 +1,1 @@
+	materials = {				MeshPhong: new THREE.MeshPhongMaterial({ 					color: 0xffb54a,					envMap: envMap,					fog: true,					transparent: true				}),				MeshStandard: new THREE.MeshStandardMaterial({					color: 0xffb54a,					envMap: envMap,					metalness: 1,					roughness: 1,					fog: true,					transparent: true				}),			}

@@ -1,0 +1,1 @@
+function mc_symbol_clone() {	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));	clone.gotoAndStop(this.currentFrame);	clone.paused = this.paused;	clone.framerate = this.framerate;	return clone;}

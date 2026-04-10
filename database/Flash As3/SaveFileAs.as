@@ -1,0 +1,1 @@
+var folder = fl.browseForFolderURL("Select a Folder");	if ( ! folder)	{		fl.trace("No folder selected!");		return;	}

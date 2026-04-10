@@ -1,0 +1,1 @@
+function create () {    this.circle = this.add.circle(0, 0, 50, 0xa60e1a);    var textConfig = {fontSize:'20px', color:'white', fontFamily: 'Arial'};    this.Text = this.add.text(0, 0, "test text", textConfig);    this.myBtn = this.add.container(config.width / 2, config.height / 2, [this.circle, this.Text]);    Phaser.Display.Align.In.Center( this.Text, this.circle );}

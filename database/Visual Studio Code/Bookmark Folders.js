@@ -1,0 +1,1 @@
+1)//settings.jsonwindow.restoreWindows=all2)control +p // Open Recent  menu//OR//Project Managerhttps://github.com/alefragnani/vscode-project-managershortcuts:1) Ctrl+Shift+P2) type Save Project or Project List Open

@@ -1,0 +1,1 @@
+        /// <summary> Loop trough Dots and compare if new index exists </summary>        private int GetFreePointIndex() {            var freeIndex = 1;            while (Dots.Find(d => d.Index == freeIndex) != null) freeIndex++;            return freeIndex;        }

@@ -1,0 +1,1 @@
+var keywords = [ "public", "class", "private", "static", "return", "void" ];for (var i = 0; i < keywords.length; i++){        var regex = new RegExp("([^A-z0-9])(" + keywords[i] + ")([^A-z0-9])(?![^<]*>|[^<>]*</)", "g");        code = code.replace(regex, "$1<span class='rm-code-keyword'>$2</span>$3");}<span style="color: blue;">Bob</span><div class='blue'>Bob</div>

@@ -1,1 +1,1 @@
-setInteractive({ pixelPerfect: true });
+setInteractive({ pixelPerfect: true });// setInteractive call can take a polygon like sothis.hitpoly = new Phaser.Geom.Polygon(this.points)this.setInteractive(this.hitpoly, Phaser.Geom.Polygon.Contains)

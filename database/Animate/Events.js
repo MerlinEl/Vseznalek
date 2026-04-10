@@ -1,1 +1,1 @@
-https://www.adobe.com/devnet-docs/edgeanimate/api/current/index.html
+https://www.adobe.com/devnet-docs/edgeanimate/api/current/index.html	ct.bg_sl8_01.addEventListener('on-animation-finished', onAnimationComplete);	function onAnimationComplete(evt){		Orien.anim.hopIn(ct, ["pop"]);	}this.dispatchEvent(new CustomEvent('on-animation-finished', { detail: this.name }));

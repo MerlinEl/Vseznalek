@@ -1,0 +1,1 @@
+function setSize(obj, width = null, height = null){    if (width)        obj.scaleX = width / obj.nominalBounds.width;       if (height)        obj.scaleY = height / obj.nominalBounds.height;}setSize(this.mc, 400, 200);

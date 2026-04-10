@@ -1,0 +1,1 @@
+ // is the mouse  inside the PictureBox ?if ( pictureRectangle.Contains(e.Location)) {}

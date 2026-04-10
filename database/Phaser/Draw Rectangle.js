@@ -1,0 +1,1 @@
+		var r1 = scene.add.rectangle(			this.deathZone.x + this.deathZone.width / 2,			this.deathZone.y + this.deathZone.height / 2,			this.deathZone.width,			this.deathZone.height		);		r1.setStrokeStyle(1, 0xFF0000);

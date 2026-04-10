@@ -1,0 +1,1 @@
+	//select line	var tf:TextField = scroll_box_01.tf_answer_01;	tf.setSelection(0, tf.getLineLength(0));	// select all text	tf.setSelection(0, tf.text.length);

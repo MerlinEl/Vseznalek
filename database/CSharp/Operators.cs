@@ -1,0 +1,1 @@
+https://docs.microsoft.com/cs-cz/dotnet/csharp/language-reference/operators/boolean-logical-operatorsANDORXOR

@@ -1,0 +1,1 @@
+Animate automaticky převádí vektor na bitmapu pro lepší deformaci a tweeing. Pokud však chcete zachovat vektor, můžete to vypnout v Preferences > Drawing > Asset warp Tool. Pokřivení podkladu lze použít na tvary, objekty kreslení, skupiny s tvary nebo objekty kreslení a bitmapy. Symboly nejsou podporovány.

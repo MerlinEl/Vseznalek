@@ -1,0 +1,1 @@
+        let [left1, top1, right1, bottom1] = [this.left, this.top, this.right, this.bottom],            [left2, top2, right2, bottom2] = [r.left, r.top, r.right, r.bottom];

@@ -1,14 +1,1 @@
-﻿var new_pages_matrix = all_pages.transform.matrix;
-trace("matrix A",new_pages_matrix )
-new_pages_matrix.translate(20, 0);
-trace("matrix B",new_pages_matrix )
-all_pages.transform.matrix = new_pages_matrix; // changes my_mc's position
-
-
-function getScale(target:DisplayObject):Object{
-	var mtx:Matrix = target.transform.matrix;
-	return {
-		scaleX: mtx.a,
-		scaleY: mtx.d
-	}
-}
+var new_pages_matrix = all_pages.transform.matrix;trace("matrix A",new_pages_matrix )new_pages_matrix.translate(20, 0);trace("matrix B",new_pages_matrix )all_pages.transform.matrix = new_pages_matrix; // changes my_mc's positionfunction getScale(target:DisplayObject):Object{	var mtx:Matrix = target.transform.matrix;	return {		scaleX: mtx.a,		scaleY: mtx.d	}}public class Addition extends Sprite{    public function Addition()     {        var m:Matrix = new Matrix();        //instantiate matrix        m.tx = stage.stageWidth * 0.5;      //shift in x        m.ty = stage.stageHeight * 0.5;     //shift in y        var d:DottedBox = new DottedBox();  //create the custom graphic (dotted box is a Sprite)        addChild(d);        d.transform.matrix = m;         //apply the matrix to our graphic    }}public class Multiplication extends Sprite{    public function Multiplication()     {        var ref:DottedBox = new DottedBox();    //create reference graphic        addChild(ref); ref.x = stage.stageWidth * 0.5; ref.y = stage.stageHeight * 0.5;         var m:Matrix = new Matrix();        //instantiate matrix        m.tx = stage.stageWidth * 0.5;      //shift in x        m.ty = stage.stageHeight * 0.5;     //shift in y        m.a = 2; m.c = 0;         m.b = 0; m.d = 1;         var d:DottedBox = new DottedBox();  //create the custom graphic        addChild(d);        d.transform.matrix = m          //apply the matrix onto our graphic    }}scale:function(scaleX,scaleY){			this.scaleX=scaleX;			this.scaleY=scaleY;			return this;		},		get scaleX(){			var vector=new ext.Point({x:this.a,y:this.b});			return vector.length;		},		get scaleY(){			var vector=new ext.Point({x:this.c,y:this.d});			return vector.length;		},		set scaleX(s){			var vector=new ext.Point({x:this.a,y:this.b});			vector.length=s;			this.a=vector.x;			this.b=vector.y;		},		set scaleY(s){			var vector=new ext.Point({x:this.c,y:this.d});			vector.length=s;			this.c=vector.x;			this.d=vector.y;		},	transformPoint:function (x, y, doTranslate) {		    var result = new ext.Point(		        (x*this.a)+(y*this.c),		        (x*this.b)+(y*this.d)		    );		    if(doTranslate==null || doTranslate){		    	result.x += this.tx;		    	result.y += this.ty;		    }		    return result;		},		clone:function (x, y, doTranslate) {		    return new ext.Matrix([this.a, this.b, this.c, this.d, this.tx, this.ty]);		},		toString:function() {			return "[Matrix a:"+this.a+" b:"+this.b+" c:"+this.c+" d:"+this.d+" tx:"+this.tx+" ty:"+this.ty+"]";		}

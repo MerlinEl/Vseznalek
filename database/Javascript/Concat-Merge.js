@@ -1,0 +1,1 @@
+var a = [1,2,3]var b = [8,9,12]var c = (a).concat(b);console.log("a:", a.join(","))console.log("b:", b.join(","))console.log("c:", c.join(","))// LOGa: 1,2,3b: 8,9,12c: 1,2,3,8,9,12

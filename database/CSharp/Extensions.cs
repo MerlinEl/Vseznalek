@@ -1,0 +1,1 @@
+Inline Color Vizualizer :  https://github.com/mrlaceyRemove the prompt for sponsorship in Visual Studio%AppData%In that directory, create a new Text Document called i-sponsor-mrlacey.txtdone.sponsored at:https://github.com/sponsors/mrlacey?success=true

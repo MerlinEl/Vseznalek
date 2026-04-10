@@ -1,0 +1,1 @@
+        this.input.on('drag', (pointer, gameObject, dragX, dragY) => {            //  This will snap our drag to a 64x64 grid            dragX = Phaser.Math.Snap.To(dragX, 64);            dragY = Phaser.Math.Snap.To(dragY, 64);            gameObject.setPosition(dragX, dragY);        });

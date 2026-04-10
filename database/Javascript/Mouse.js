@@ -1,0 +1,1 @@
+	// Enable to change cursor on mouse over	stage.enableMouseOver(lib.properties.fps);		// Enable touch events on this stage	// stage  [singleTouch=false]  [allowDefault=false]	createjs.Touch.enable(stage, false, true);stage._testMouseOver(true)mc.cursor = "pointer";stage.canvas.style.cursor = "pointer";stage.canvas.style.cursor = "none";
