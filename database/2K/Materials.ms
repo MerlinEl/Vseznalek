@@ -1,1 +1,0 @@
---textura glossinessz te normaly to jde do G, jsem to resil s radimem Doleckem, nejak to resi lesky z vetsi dalky, R je metalness a B je emisiive mask
